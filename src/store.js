@@ -78,6 +78,9 @@ export class MemoryStore {
         subject,
         predicate: null,
         value: null,
+        // Keep the pairs the digest was built from, so a reader can pull the
+        // values for one predicate without parsing the text back apart
+        entries: facts.map((f) => ({ predicate: f.predicate, value: f.value })),
         covers: facts.map((f) => f.id),
         t,
         active: true,

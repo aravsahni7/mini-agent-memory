@@ -5,6 +5,7 @@ import { rank } from './scorer.js';
 import { buildSessions, SLOTS, slotKey } from './sessions.js';
 import { GroundTruth } from './sessions.js';
 import { isCorrect } from './metrics.js';
+import { READERS, candidates } from './readers.js';
 
 test('supersede retires the previous value for a slot', () => {
   const s = new MemoryStore({ forgetPolicy: 'supersede' });
@@ -81,18 +82,81 @@ test('fixture values are single tokens, so BM25 length norm cannot skew arms', (
   }
 });
 
-test('no slot is written more times than it has values', () => {
+test('no slot uses more distinct values than it has', () => {
+  // Writes may exceed the value count now, since a re-affirmation rewrites the
+  // value the slot already holds rather than taking a new one
   const plan = buildSessions({ seed: 7, sessions: 20, writesPerSession: 4 });
-  const counts = new Map();
+  const used = new Map();
   for (const s of plan) {
     for (const w of s.writes) {
       const k = `${w.subject}.${w.predicate}`;
-      counts.set(k, (counts.get(k) ?? 0) + 1);
+      if (!used.has(k)) used.set(k, new Set());
+      used.get(k).add(w.value);
     }
   }
   for (const slot of SLOTS) {
-    const n = counts.get(slotKey(slot)) ?? 0;
-    assert.ok(n <= slot.values.length, `${slotKey(slot)}: ${n} writes > ${slot.values.length} values`);
+    const n = used.get(slotKey(slot))?.size ?? 0;
+    assert.ok(n <= slot.values.length, `${slotKey(slot)}: ${n} distinct > ${slot.values.length}`);
+  }
+});
+
+test('the first write to a slot introduces a value rather than re-affirming', () => {
+  const plan = buildSessions({ seed: 3, sessions: 20, changeRate: 0.1 });
+  const seen = new Set();
+  for (const s of plan) {
+    for (const w of s.writes) {
+      const k = `${w.subject}.${w.predicate}`;
+      if (!seen.has(k)) {
+        assert.equal(w.change, true, `first write to ${k} should be a change`);
+        seen.add(k);
+      }
+    }
+  }
+});
+
+test('a lower change rate piles up more copies of one value', () => {
+  const copies = (changeRate) => {
+    const counts = new Map();
+    for (const s of buildSessions({ seed: 7, sessions: 20, changeRate })) {
+      for (const w of s.writes) {
+        const k = `${w.subject}.${w.predicate}=${w.value}`;
+        counts.set(k, (counts.get(k) ?? 0) + 1);
+      }
+    }
+    return Math.max(...counts.values());
+  };
+  assert.ok(copies(0.2) > copies(0.9), 'rarely-changing slots should repeat values more');
+});
+
+test('majority flips to a stale value when the old one was re-affirmed more', () => {
+  const results = [
+    { kind: 'fact', subject: 'deploy', predicate: 'target', value: 'railway', t: 50 },
+    { kind: 'fact', subject: 'deploy', predicate: 'target', value: 'vercel', t: 3 },
+    { kind: 'fact', subject: 'deploy', predicate: 'target', value: 'vercel', t: 7 },
+  ];
+  const cands = candidates(results, { subject: 'deploy', predicate: 'target' });
+  assert.equal(READERS.first(cands), 'railway');
+  assert.equal(READERS.newest(cands), 'railway');
+  assert.equal(READERS.majority(cands), 'vercel');
+});
+
+test('readers pull values out of a digest as well as plain facts', () => {
+  const results = [
+    {
+      kind: 'digest',
+      subject: 'deploy',
+      t: 9,
+      entries: [{ predicate: 'target', value: 'vercel' }, { predicate: 'region', value: 'iad' }],
+    },
+  ];
+  const cands = candidates(results, { subject: 'deploy', predicate: 'target' });
+  assert.deepEqual(cands.map((c) => c.value), ['vercel']);
+});
+
+test('every reader abstains rather than guessing when nothing matches', () => {
+  const cands = candidates([], { subject: 'deploy', predicate: 'target' });
+  for (const [name, read] of Object.entries(READERS)) {
+    assert.equal(read(cands), null, `${name} should return null`);
   }
 });
 

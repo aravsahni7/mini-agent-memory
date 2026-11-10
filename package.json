@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Tiny implementation of the memory architecture described in Anthropic's 'The components of agent memory', built to test one claim about consolidation and forgetting.",
+  "description": "Tiny implementation of agent memory write/recall/consolidate/forget, measuring what consolidation without forgetting does to the answer an agent gives",
   "scripts": {
     "experiment": "node src/experiment.js",
-    "test": "node src/store.test.js"
+    "test": "node src/store.test.js",
+    "sweep": "node src/sweep.js"
   },
   "license": "MIT"
 }

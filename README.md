@@ -2,96 +2,109 @@
 
 A tiny implementation of the four memory operations described in
 [The components of agent memory](https://www.anthropic.com/engineering)
-(Anthropic Engineering, Nov 2026), built to test one claim: **what happens to
-retrieval when memory is consolidated but never forgotten.**
+(Anthropic Engineering, Nov 2026), built to test what consolidation without
+forgetting does to the answer an agent gives.
 
-Zero dependencies. Deterministic. `npm run experiment` reproduces every number below.
+Zero dependencies, deterministic, offline. `npm run experiment` and `npm run sweep`
+reproduce every number below.
 
 ## Finding
 
-Adding recency to the ranker makes the failure invisible at top-1 while leaving it
-fully intact in the context window.
+**Retrieval looks perfect at every setting. The answer does not.**
 
-Over 20 sessions with 80 fact updates across 12 slots, consolidating every 5 sessions:
+Memories are written across 20 sessions. Some writes change a slot's value, the
+rest re-affirm the value it already holds, because real agent memory records the
+same fact over and over rather than only when something changes. Sweeping how
+often a fact actually changes, averaged over 24 seeds:
 
-| forgetting | tiebreak | top-1 @ s1 → s20 | p@5 @ s1 → s20 | memories | evicted |
-|---|---|---|---|---|---|
-| none | oldest | 100% → **0.0%** | 100% → **0.0%** | 128 | 0 |
-| none | random | 100% → **11.3%** | 100% → **15.6%** | 128 | 0 |
-| none | recency | 100% → **100%** | 100% → **20.0%** | 128 | 0 |
-| supersede | random | 100% → **100%** | 100% → **100%** | 24 | 104 |
+| change rate | top-ranked | newest | **majority** | copies: current / rival |
+|---|---|---|---|---|
+| 0.1 | 100% | 100% | **77.4%** | 4.90 / 1.61 |
+| 0.3 | 100% | 100% | **52.4%** | 2.81 / 2.81 |
+| 0.6 | 100% | 100% | **40.3%** | 1.54 / 2.42 |
+| 0.9 | 100% | 100% | **76.7%** | 1.12 / 1.42 |
+| 1.0 | 100% | 100% | **100%** | 1.00 / 1.00 |
 
-The third row is the interesting one. Recency ranking restores top-1 to a perfect
-score, so any eval that checks "did it retrieve the right fact" reports green. But
-p@5 sits at 20.0% — exactly 1 correct memory in 5. The other four are superseded
-values for the same slot, and they still go into the context window.
+A reader that takes the top-ranked memory is right every time. So is one that
+takes the newest. A reader that weighs the whole retrieved context bottoms out
+at 40.3%, and an explicit supersede policy holds it at 100% across the entire
+sweep with 24 active memories instead of 128.
 
-So recency weighting is not a cheap substitute for a forgetting policy. It relocates
-the problem from *retrieval* to *context*, where it is harder to see: the agent gets
-the right answer ranked first and four contradictions ranked just behind it.
+The mechanism is in the last column. With no forgetting, every re-affirmation
+leaves another copy. A value that was true for a while accumulates copies; the
+value that replaced it last week has one or two. At change rate 0.6 the current
+value holds 1.54 copies against a rival's 2.42, and the ratio of those two peaks
+at exactly the change rate where answer accuracy is worst.
 
-Eviction also kept the store at 24 active memories instead of 128 — a 5.3× difference
-in what has to be ranked on every call.
+**The worst case is the middle, not the extremes.** Memory is most wrong about
+facts that changed recently after a stable period. Slots that never change are
+safe because the truth has the most copies. Slots that change constantly are safe
+because nothing accumulates. The damage is to facts that were stable long enough
+to be repeated and then moved.
 
-### Why consolidation makes it worse, not better
-
-`consolidate()` collapses a subject's active facts into one digest. With no forgetting,
-"active" still includes every superseded value, so the digest reads:
-
-```
-deploy target vercel and target railway and target render
-```
-
-That is a single high-scoring memory that encodes the ambiguity permanently, and it
-survives into every later retrieval. The sawtooth in the `oldest` column at sessions
-5/10/15/20 is consolidation firing.
+None of this is visible to a retrieval metric. Top-1 and newest sit at 100%
+across the whole sweep, so an eval asking "did we retrieve the right memory"
+reports green at the exact point the agent is most likely to answer wrong.
 
 ## Method
 
-- 12 slots (`subject.predicate` → value), each updated 6–7 times over 20 sessions
-- Retrieval is BM25-lite over active memories; `consolidate()` every 5 sessions
-- **top-1**: is the highest-ranked memory the currently-true value?
-- **p@5**: what fraction of the top 5 are currently true? A digest naming both a
-  current and a superseded value counts as wrong — the retriever has no way to choose.
-- Random tiebreaks averaged over 20 seeds; deterministic ones run once
+- 12 slots (`subject.predicate` → value), 20 sessions, 4 writes per session
+- Each write either changes the slot to its next value or re-affirms its current
+  one, with `changeRate` controlling the split
+- Retrieval is BM25-lite over active memories, `consolidate()` every 5 sessions
+- Three readers turn the top 5 retrieved memories into one answer:
+  `first` takes the top rank, `newest` takes the highest timestamp, `majority`
+  takes the most frequent value with ties broken by rank
+- Answer accuracy is the share of slots where the reader returns the current value
 
 ## Repro
 
 ```
-git clone <this repo> && cd mini-agent-memory
-npm run experiment    # table above, plus results/run.json
-npm test              # 9 assertions covering the harness itself
+npm run experiment    # four arms over 20 sessions
+npm run sweep         # the change-rate curve above
+npm test              # 14 assertions covering the harness itself
 ```
 
-No install step. No API key. Node 18+.
+No install step, no API key, Node 18+.
 
-## Two bugs this went through
+## Three things that were wrong first
 
-Both inflated the result, and both are worth naming because they are easy to repeat:
+All three made the result look better than it was, and all three are easy to repeat:
 
-1. **The scorer tiebroke on recency by default.** Every fact for a slot has identical
-   token length and identical query overlap, so they tie on BM25 *exactly* and the
-   tiebreak alone decides top-1. With recency baked in, both arms scored 100% and the
-   experiment was measuring nothing. Recency is now one arm of four.
+1. **The scorer tiebroke on recency by default.** Every fact for a slot has
+   identical token length and identical query overlap, so they tie on BM25
+   exactly and the tiebreak alone decides top-1. With recency baked in, every arm
+   scored 100% and the experiment measured nothing.
 2. **Sorting ties by memory id looked neutral and was not.** `'m10' < 'm9'`
-   lexicographically, so it systematically returned the oldest fact — the worst case,
-   reported as if it were the average. The real neutral baseline is a seeded hash,
-   which puts the no-forgetting arm at 11.3%, not 0%.
+   lexicographically, so it systematically returned the oldest fact, which is the
+   worst case reported as though it were the average.
+3. **The first version's headline number was arithmetic, not a result.** It
+   reported that precision@5 fell to 20.0% while top-1 held at 100%. But once a
+   slot holds five facts and exactly one is current, precision@5 is 1/5 by
+   definition. Sweeping k confirmed it: p@k came out to exactly 1/k at every
+   value of k. That is why this version measures what the reader concludes
+   instead, and why re-affirmation had to be added. Without repeated writes there
+   is nothing for a counting reader to get wrong.
 
-The fixture had a third problem: slots ran out of values and began rewriting the value
-they already held, accumulating *correct* duplicates and bending the precision curve
-back upward. `buildSessions` now allocates an explicit per-slot quota and throws rather
-than clamping.
+The fixture had a fourth problem: slots ran out of values and began rewriting the
+value they already held, accumulating correct duplicates and bending the curve
+back upward. That one turned out to be worth keeping deliberately, which is what
+re-affirmation now is.
 
 ## Limits
 
-- **Lexical retrieval, not embeddings.** Embeddings would not tie so exactly, so the
-  tiebreak would matter less and the no-forgetting arm would likely land above 11.3%.
-  The recency-vs-p@5 gap should survive, but this is the assumption most worth attacking.
-- **Synthetic sessions**, not real agent traces. Every update is a clean overwrite of a
-  single slot; real memory churn is messier and partly contradictory within a session.
-- **One consolidation strategy** (concatenate per subject). A digest that resolved
-  conflicts at write time would behave differently — arguably that *is* a forgetting
-  policy wearing a different hat.
+- **The `majority` reader is a stand-in for an LLM, and an untested one.** The
+  claim it encodes is that a model weighs repeated context rather than reading
+  rank order, which is plausible and is not measured here. Swap in a real model
+  and the curve could flatten entirely. This is the assumption the whole finding
+  rests on and the first thing worth attacking.
+- **Lexical retrieval, not embeddings.** Values are single tokens of equal length
+  so BM25 ties exactly, which keeps the arms comparable but is not how real text
+  behaves.
+- **A fixed write budget.** 80 writes total, so a higher change rate mechanically
+  means fewer repeats. The right-hand end of the curve is partly built in. The
+  position and depth of the minimum are not.
+- **Synthetic sessions.** Every update is a clean overwrite of one slot, and real
+  memory churn is messier and contradicts itself within a session.
 - `supersede` assumes a well-formed `(subject, predicate)` key. Extracting that
-  reliably from free text is most of the real problem and is skipped entirely here.
+  reliably from free text is most of the real problem and is skipped here.

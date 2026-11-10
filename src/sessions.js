@@ -21,9 +21,16 @@ export const SLOTS = [
 
 export const slotKey = (s) => `${s.subject}.${s.predicate}`;
 
-// Build a run of sessions, where each one rewrites a few slots to their next
-// value, so the agent's world keeps changing underneath its memory
-export function buildSessions({ seed = 7, sessions = 20, writesPerSession = 4 } = {}) {
+// Build a run of sessions, where each one writes to a few slots
+// A write either changes the slot to its next value or re-affirms the value it
+// already holds, since real agent memory records the same fact over and over
+// rather than only on the turns where something changes
+export function buildSessions({
+  seed = 7,
+  sessions = 20,
+  writesPerSession = 4,
+  changeRate = 0.4,
+} = {}) {
   const next = rng(seed);
   const total = sessions * writesPerSession;
 
@@ -31,12 +38,6 @@ export function buildSessions({ seed = 7, sessions = 20, writesPerSession = 4 } 
   // slot the tail of the distribution and runs it out of values while the others
   // sit idle. A quota caps every slot at ceil(total / SLOTS.length) instead.
   const perSlot = Math.ceil(total / SLOTS.length);
-  if (perSlot > Math.min(...SLOTS.map((s) => s.values.length))) {
-    throw new Error(
-      `${sessions} sessions x ${writesPerSession} writes needs ${perSlot} values per slot, ` +
-      `but the shortest slot has ${Math.min(...SLOTS.map((s) => s.values.length))}`
-    );
-  }
   if (writesPerSession > SLOTS.length) {
     throw new Error('writesPerSession cannot exceed the number of slots');
   }
@@ -57,25 +58,25 @@ export function buildSessions({ seed = 7, sessions = 20, writesPerSession = 4 } 
     const writes = candidates.map(({ slot }) => {
       const key = slotKey(slot);
       const at = cursor.get(key);
-      // Fail loudly rather than clamping, since a slot that runs out of values
-      // starts rewriting the one it already holds, and those correct duplicates
-      // push precision back up for reasons that have nothing to do with memory
-      if (at >= slot.values.length) {
-        throw new Error(`slot ${key} ran out of its ${slot.values.length} values`);
-      }
-      cursor.set(key, at + 1);
       quota.set(key, quota.get(key) - 1);
+
+      // The first write to a slot has to introduce a value, since there is
+      // nothing yet to re-affirm. After that it changes only sometimes.
+      const change = at === 0 || next() < changeRate;
+      // Hold at the last value rather than throwing, since re-affirming is a
+      // normal write here and running out of new values just means the slot
+      // has settled
+      const idx = change ? Math.min(at, slot.values.length - 1) : Math.max(at - 1, 0);
+      if (change) cursor.set(key, Math.min(at + 1, slot.values.length));
+
       return {
         subject: slot.subject,
         predicate: slot.predicate,
-        value: slot.values[at],
+        value: slot.values[idx],
+        change,
         sessionId: i,
       };
     });
-
-    if (writes.length < writesPerSession) {
-      throw new Error(`ran out of quota at session ${i}`);
-    }
 
     out.push({ sessionId: i, writes });
   }

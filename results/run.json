@@ -18,6 +18,8 @@
           "slots": 4,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 4
         },
         {
@@ -25,6 +27,8 @@
           "slots": 8,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 8
         },
         {
@@ -32,125 +36,161 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 12
         },
         {
           "session": 4,
           "slots": 12,
-          "top1Accuracy": 0.6666666666666666,
-          "precisionAtK": 0.8333333333333334,
+          "top1Accuracy": 0.8333333333333334,
+          "precisionAtK": 0.9166666666666666,
+          "answerFirst": 0.8333333333333334,
+          "answerMajority": 0.8333333333333334,
           "activeMemories": 16
         },
         {
           "session": 5,
           "slots": 12,
-          "top1Accuracy": 0.3333333333333333,
-          "precisionAtK": 0.5555555555555555,
+          "top1Accuracy": 0.6666666666666666,
+          "precisionAtK": 0.7777777777777777,
+          "answerFirst": 0.6666666666666666,
+          "answerMajority": 0.6666666666666666,
           "activeMemories": 32
         },
         {
           "session": 6,
           "slots": 12,
-          "top1Accuracy": 0,
-          "precisionAtK": 0.3333333333333333,
+          "top1Accuracy": 0.5833333333333334,
+          "precisionAtK": 0.7222222222222222,
+          "answerFirst": 0.5833333333333334,
+          "answerMajority": 0.5833333333333334,
           "activeMemories": 36
         },
         {
           "session": 7,
           "slots": 12,
-          "top1Accuracy": 0,
-          "precisionAtK": 0.3055555555555556,
+          "top1Accuracy": 0.5,
+          "precisionAtK": 0.6527777777777778,
+          "answerFirst": 0.5,
+          "answerMajority": 0.5,
           "activeMemories": 40
         },
         {
           "session": 8,
           "slots": 12,
-          "top1Accuracy": 0,
-          "precisionAtK": 0.27777777777777773,
+          "top1Accuracy": 0.4166666666666667,
+          "precisionAtK": 0.5902777777777778,
+          "answerFirst": 0.4166666666666667,
+          "answerMajority": 0.5,
           "activeMemories": 44
         },
         {
           "session": 9,
           "slots": 12,
-          "top1Accuracy": 0,
-          "precisionAtK": 0.25,
+          "top1Accuracy": 0.16666666666666666,
+          "precisionAtK": 0.3958333333333333,
+          "answerFirst": 0.16666666666666666,
+          "answerMajority": 0.25,
           "activeMemories": 48
         },
         {
           "session": 10,
           "slots": 12,
-          "top1Accuracy": 0,
-          "precisionAtK": 0.19999999999999998,
+          "top1Accuracy": 0.08333333333333333,
+          "precisionAtK": 0.2833333333333334,
+          "answerFirst": 0.08333333333333333,
+          "answerMajority": 0.16666666666666666,
           "activeMemories": 64
         },
         {
           "session": 11,
           "slots": 12,
-          "top1Accuracy": 0,
-          "precisionAtK": 0.19999999999999998,
+          "top1Accuracy": 0.08333333333333333,
+          "precisionAtK": 0.3166666666666667,
+          "answerFirst": 0.08333333333333333,
+          "answerMajority": 0.16666666666666666,
           "activeMemories": 68
         },
         {
           "session": 12,
           "slots": 12,
-          "top1Accuracy": 0,
-          "precisionAtK": 0.19999999999999998,
+          "top1Accuracy": 0.08333333333333333,
+          "precisionAtK": 0.3166666666666667,
+          "answerFirst": 0.08333333333333333,
+          "answerMajority": 0.08333333333333333,
           "activeMemories": 72
         },
         {
           "session": 13,
           "slots": 12,
-          "top1Accuracy": 0,
-          "precisionAtK": 0.18333333333333332,
+          "top1Accuracy": 0.08333333333333333,
+          "precisionAtK": 0.30000000000000004,
+          "answerFirst": 0.08333333333333333,
+          "answerMajority": 0.08333333333333333,
           "activeMemories": 76
         },
         {
           "session": 14,
           "slots": 12,
-          "top1Accuracy": 0,
-          "precisionAtK": 0.15,
+          "top1Accuracy": 0.08333333333333333,
+          "precisionAtK": 0.3166666666666667,
+          "answerFirst": 0.08333333333333333,
+          "answerMajority": 0.16666666666666666,
           "activeMemories": 80
         },
         {
           "session": 15,
           "slots": 12,
-          "top1Accuracy": 0,
-          "precisionAtK": 0.13333333333333333,
+          "top1Accuracy": 0.08333333333333333,
+          "precisionAtK": 0.2833333333333334,
+          "answerFirst": 0.08333333333333333,
+          "answerMajority": 0.16666666666666666,
           "activeMemories": 96
         },
         {
           "session": 16,
           "slots": 12,
-          "top1Accuracy": 0,
-          "precisionAtK": 0.09999999999999999,
+          "top1Accuracy": 0.08333333333333333,
+          "precisionAtK": 0.2666666666666667,
+          "answerFirst": 0.08333333333333333,
+          "answerMajority": 0.16666666666666666,
           "activeMemories": 100
         },
         {
           "session": 17,
           "slots": 12,
-          "top1Accuracy": 0,
-          "precisionAtK": 0.06666666666666667,
+          "top1Accuracy": 0.08333333333333333,
+          "precisionAtK": 0.2333333333333334,
+          "answerFirst": 0.08333333333333333,
+          "answerMajority": 0.16666666666666666,
           "activeMemories": 104
         },
         {
           "session": 18,
           "slots": 12,
           "top1Accuracy": 0,
-          "precisionAtK": 0,
+          "precisionAtK": 0.13333333333333333,
+          "answerFirst": 0,
+          "answerMajority": 0.08333333333333333,
           "activeMemories": 108
         },
         {
           "session": 19,
           "slots": 12,
           "top1Accuracy": 0,
-          "precisionAtK": 0,
+          "precisionAtK": 0.09999999999999999,
+          "answerFirst": 0,
+          "answerMajority": 0.08333333333333333,
           "activeMemories": 112
         },
         {
           "session": 20,
           "slots": 12,
           "top1Accuracy": 0,
-          "precisionAtK": 0,
+          "precisionAtK": 0.08333333333333333,
+          "answerFirst": 0,
+          "answerMajority": 0.08333333333333333,
           "activeMemories": 128
         }
       ],
@@ -171,6 +211,8 @@
           "slots": 4,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 4
         },
         {
@@ -178,6 +220,8 @@
           "slots": 8,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 8
         },
         {
@@ -185,125 +229,161 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 12
         },
         {
           "session": 4,
           "slots": 12,
-          "top1Accuracy": 0.8333333333333333,
-          "precisionAtK": 0.8333333333333336,
+          "top1Accuracy": 0.9208333333333334,
+          "precisionAtK": 0.9166666666666666,
+          "answerFirst": 0.9208333333333334,
+          "answerMajority": 0.9208333333333334,
           "activeMemories": 16
         },
         {
           "session": 5,
           "slots": 12,
-          "top1Accuracy": 0.6541666666666666,
-          "precisionAtK": 0.5555555555555555,
+          "top1Accuracy": 0.8333333333333333,
+          "precisionAtK": 0.777777777777778,
+          "answerFirst": 0.8333333333333333,
+          "answerMajority": 0.8333333333333333,
           "activeMemories": 32
         },
         {
           "session": 6,
           "slots": 12,
-          "top1Accuracy": 0.4,
-          "precisionAtK": 0.3333333333333332,
+          "top1Accuracy": 0.7583333333333335,
+          "precisionAtK": 0.7222222222222219,
+          "answerFirst": 0.7583333333333335,
+          "answerMajority": 0.7500000000000001,
           "activeMemories": 36
         },
         {
           "session": 7,
           "slots": 12,
-          "top1Accuracy": 0.35,
-          "precisionAtK": 0.30555555555555547,
+          "top1Accuracy": 0.6583333333333333,
+          "precisionAtK": 0.652777777777778,
+          "answerFirst": 0.6583333333333333,
+          "answerMajority": 0.6208333333333333,
           "activeMemories": 40
         },
         {
           "session": 8,
           "slots": 12,
-          "top1Accuracy": 0.2958333333333333,
-          "precisionAtK": 0.27777777777777773,
+          "top1Accuracy": 0.5708333333333333,
+          "precisionAtK": 0.590277777777778,
+          "answerFirst": 0.5708333333333333,
+          "answerMajority": 0.5375,
           "activeMemories": 44
         },
         {
           "session": 9,
           "slots": 12,
-          "top1Accuracy": 0.2125,
-          "precisionAtK": 0.25,
+          "top1Accuracy": 0.3916666666666667,
+          "precisionAtK": 0.3958333333333332,
+          "answerFirst": 0.3916666666666667,
+          "answerMajority": 0.25,
           "activeMemories": 48
         },
         {
           "session": 10,
           "slots": 12,
-          "top1Accuracy": 0.24999999999999994,
-          "precisionAtK": 0.20000000000000004,
+          "top1Accuracy": 0.2958333333333334,
+          "precisionAtK": 0.2833333333333333,
+          "answerFirst": 0.2958333333333334,
+          "answerMajority": 0.1666666666666666,
           "activeMemories": 64
         },
         {
           "session": 11,
           "slots": 12,
-          "top1Accuracy": 0.3166666666666667,
-          "precisionAtK": 0.20000000000000004,
+          "top1Accuracy": 0.36666666666666664,
+          "precisionAtK": 0.31666666666666665,
+          "answerFirst": 0.36666666666666664,
+          "answerMajority": 0.1666666666666666,
           "activeMemories": 68
         },
         {
           "session": 12,
           "slots": 12,
-          "top1Accuracy": 0.3541666666666667,
-          "precisionAtK": 0.20000000000000004,
+          "top1Accuracy": 0.38333333333333325,
+          "precisionAtK": 0.31666666666666665,
+          "answerFirst": 0.38333333333333325,
+          "answerMajority": 0.125,
           "activeMemories": 72
         },
         {
           "session": 13,
           "slots": 12,
-          "top1Accuracy": 0.31249999999999994,
-          "precisionAtK": 0.19750000000000004,
+          "top1Accuracy": 0.3499999999999999,
+          "precisionAtK": 0.3266666666666666,
+          "answerFirst": 0.3499999999999999,
+          "answerMajority": 0.1708333333333333,
           "activeMemories": 76
         },
         {
           "session": 14,
           "slots": 12,
-          "top1Accuracy": 0.2541666666666667,
-          "precisionAtK": 0.19583333333333336,
+          "top1Accuracy": 0.35416666666666663,
+          "precisionAtK": 0.3433333333333333,
+          "answerFirst": 0.35416666666666663,
+          "answerMajority": 0.2708333333333333,
           "activeMemories": 80
         },
         {
           "session": 15,
           "slots": 12,
-          "top1Accuracy": 0.225,
-          "precisionAtK": 0.19416666666666668,
+          "top1Accuracy": 0.3625,
+          "precisionAtK": 0.3241666666666666,
+          "answerFirst": 0.3625,
+          "answerMajority": 0.29583333333333334,
           "activeMemories": 96
         },
         {
           "session": 16,
           "slots": 12,
-          "top1Accuracy": 0.2125,
-          "precisionAtK": 0.18416666666666667,
+          "top1Accuracy": 0.4166666666666667,
+          "precisionAtK": 0.36083333333333345,
+          "answerFirst": 0.4166666666666667,
+          "answerMajority": 0.4333333333333333,
           "activeMemories": 100
         },
         {
           "session": 17,
           "slots": 12,
-          "top1Accuracy": 0.22916666666666666,
-          "precisionAtK": 0.17500000000000004,
+          "top1Accuracy": 0.4208333333333332,
+          "precisionAtK": 0.3708333333333334,
+          "answerFirst": 0.4208333333333332,
+          "answerMajority": 0.4958333333333333,
           "activeMemories": 104
         },
         {
           "session": 18,
           "slots": 12,
-          "top1Accuracy": 0.19166666666666665,
-          "precisionAtK": 0.16500000000000006,
+          "top1Accuracy": 0.32499999999999996,
+          "precisionAtK": 0.31749999999999995,
+          "answerFirst": 0.32499999999999996,
+          "answerMajority": 0.4291666666666667,
           "activeMemories": 108
         },
         {
           "session": 19,
           "slots": 12,
-          "top1Accuracy": 0.16666666666666669,
-          "precisionAtK": 0.15916666666666668,
+          "top1Accuracy": 0.2375,
+          "precisionAtK": 0.265,
+          "answerFirst": 0.2375,
+          "answerMajority": 0.2833333333333333,
           "activeMemories": 112
         },
         {
           "session": 20,
           "slots": 12,
-          "top1Accuracy": 0.1125,
-          "precisionAtK": 0.15583333333333332,
+          "top1Accuracy": 0.20833333333333331,
+          "precisionAtK": 0.25999999999999995,
+          "answerFirst": 0.20833333333333331,
+          "answerMajority": 0.27083333333333326,
           "activeMemories": 128
         }
       ],
@@ -324,6 +404,8 @@
           "slots": 4,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 4
         },
         {
@@ -331,6 +413,8 @@
           "slots": 8,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 8
         },
         {
@@ -338,125 +422,161 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 12
         },
         {
           "session": 4,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.8333333333333334,
+          "precisionAtK": 0.9166666666666666,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 16
         },
         {
           "session": 5,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.5555555555555555,
+          "precisionAtK": 0.7777777777777777,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 32
         },
         {
           "session": 6,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.3333333333333333,
+          "precisionAtK": 0.7222222222222222,
+          "answerFirst": 1,
+          "answerMajority": 0.9166666666666666,
           "activeMemories": 36
         },
         {
           "session": 7,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.3055555555555556,
+          "precisionAtK": 0.6527777777777778,
+          "answerFirst": 1,
+          "answerMajority": 0.75,
           "activeMemories": 40
         },
         {
           "session": 8,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.27777777777777773,
+          "precisionAtK": 0.5902777777777778,
+          "answerFirst": 1,
+          "answerMajority": 0.5833333333333334,
           "activeMemories": 44
         },
         {
           "session": 9,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.25,
+          "precisionAtK": 0.3958333333333333,
+          "answerFirst": 1,
+          "answerMajority": 0.25,
           "activeMemories": 48
         },
         {
           "session": 10,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.19999999999999998,
+          "precisionAtK": 0.2833333333333334,
+          "answerFirst": 1,
+          "answerMajority": 0.16666666666666666,
           "activeMemories": 64
         },
         {
           "session": 11,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.19999999999999998,
+          "precisionAtK": 0.3166666666666667,
+          "answerFirst": 1,
+          "answerMajority": 0.16666666666666666,
           "activeMemories": 68
         },
         {
           "session": 12,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.19999999999999998,
+          "precisionAtK": 0.3166666666666667,
+          "answerFirst": 1,
+          "answerMajority": 0.16666666666666666,
           "activeMemories": 72
         },
         {
           "session": 13,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.19999999999999998,
+          "precisionAtK": 0.3333333333333334,
+          "answerFirst": 1,
+          "answerMajority": 0.25,
           "activeMemories": 76
         },
         {
           "session": 14,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.19999999999999998,
+          "precisionAtK": 0.3500000000000001,
+          "answerFirst": 1,
+          "answerMajority": 0.4166666666666667,
           "activeMemories": 80
         },
         {
           "session": 15,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.19999999999999998,
+          "precisionAtK": 0.3333333333333334,
+          "answerFirst": 1,
+          "answerMajority": 0.5,
           "activeMemories": 96
         },
         {
           "session": 16,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.19999999999999998,
+          "precisionAtK": 0.38333333333333336,
+          "answerFirst": 1,
+          "answerMajority": 0.6666666666666666,
           "activeMemories": 100
         },
         {
           "session": 17,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.19999999999999998,
+          "precisionAtK": 0.4000000000000001,
+          "answerFirst": 1,
+          "answerMajority": 0.6666666666666666,
           "activeMemories": 104
         },
         {
           "session": 18,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.19999999999999998,
+          "precisionAtK": 0.3666666666666667,
+          "answerFirst": 1,
+          "answerMajority": 0.6666666666666666,
           "activeMemories": 108
         },
         {
           "session": 19,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.19999999999999998,
+          "precisionAtK": 0.31666666666666676,
+          "answerFirst": 1,
+          "answerMajority": 0.4166666666666667,
           "activeMemories": 112
         },
         {
           "session": 20,
           "slots": 12,
           "top1Accuracy": 1,
-          "precisionAtK": 0.19999999999999998,
+          "precisionAtK": 0.3333333333333333,
+          "answerFirst": 1,
+          "answerMajority": 0.3333333333333333,
           "activeMemories": 128
         }
       ],
@@ -477,6 +597,8 @@
           "slots": 4,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 4
         },
         {
@@ -484,6 +606,8 @@
           "slots": 8,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 8
         },
         {
@@ -491,6 +615,8 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 12
         },
         {
@@ -498,6 +624,8 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 12
         },
         {
@@ -505,6 +633,8 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 24
         },
         {
@@ -512,6 +642,8 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 20
         },
         {
@@ -519,20 +651,26 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
-          "activeMemories": 17
+          "answerFirst": 1,
+          "answerMajority": 1,
+          "activeMemories": 18
         },
         {
           "session": 8,
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
-          "activeMemories": 15
+          "answerFirst": 1,
+          "answerMajority": 1,
+          "activeMemories": 16
         },
         {
           "session": 9,
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 12
         },
         {
@@ -540,6 +678,8 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 24
         },
         {
@@ -547,6 +687,8 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 20
         },
         {
@@ -554,6 +696,8 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 16
         },
         {
@@ -561,20 +705,26 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
-          "activeMemories": 13
+          "answerFirst": 1,
+          "answerMajority": 1,
+          "activeMemories": 15
         },
         {
           "session": 14,
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
-          "activeMemories": 13
+          "answerFirst": 1,
+          "answerMajority": 1,
+          "activeMemories": 14
         },
         {
           "session": 15,
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 24
         },
         {
@@ -582,6 +732,8 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 20
         },
         {
@@ -589,6 +741,8 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 16
         },
         {
@@ -596,6 +750,8 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 12
         },
         {
@@ -603,6 +759,8 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 12
         },
         {
@@ -610,6 +768,8 @@
           "slots": 12,
           "top1Accuracy": 1,
           "precisionAtK": 1,
+          "answerFirst": 1,
+          "answerMajority": 1,
           "activeMemories": 24
         }
       ],
