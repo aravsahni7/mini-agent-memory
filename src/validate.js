@@ -68,17 +68,21 @@ function buildCases(target) {
   return cases;
 }
 
-// Three renderings, so repetition can be told apart from position bias
-// 'rank' keeps the current value at the top, which any reader following order
-// gets right. 'shuffled' removes that cue. 'stamped' shuffles but shows when
-// each memory was written, which is enough to work the answer out.
+// Four renderings, so repetition can be told apart from position bias
+// 'rank' puts the current value at the top but never says the order carries
+// meaning, so a model has no way to know position matters. 'labeled' is the
+// same list with one line saying it runs newest first, which separates 'cannot
+// use the order' from 'ignores the order'. 'shuffled' drops the cue entirely.
+// 'stamped' shuffles but shows when each memory was written, which is enough
+// to work the answer out.
 function render(testCase, condition) {
   let lines = testCase.memories;
-  if (condition !== 'rank') {
+  if (condition === 'shuffled' || condition === 'stamped') {
     const next = rng(testCase.id.length * 7919);
     lines = [...lines].sort(() => next() - 0.5);
   }
-  return lines
+  const note = condition === 'labeled' ? '(listed newest first)\n' : '';
+  return note + lines
     .map((m) => (condition === 'stamped' ? `- [written at t=${m.t}] ${m.text}` : `- ${m.text}`))
     .join('\n');
 }
@@ -133,7 +137,7 @@ async function pool(jobs, limit) {
 
 const client = new Anthropic();
 const cases = buildCases(CASES);
-const conditions = ['rank', 'shuffled', 'stamped'];
+const conditions = ['rank', 'labeled', 'shuffled', 'stamped'];
 const callCount = cases.length * conditions.length * MODELS.length;
 
 console.log(`\n${pilot ? 'PILOT: ' : ''}${cases.length} conflict cases x ${conditions.length} conditions x ${MODELS.length} models = ${callCount} calls`);
@@ -144,6 +148,17 @@ for (const model of MODELS) {
   for (const condition of conditions) {
     for (const testCase of cases) jobs.push(() => ask(client, model, testCase, condition));
   }
+}
+
+// --dry prints what the model would see and stops, so no key and no spend
+if (process.argv.includes('--dry')) {
+  for (const condition of conditions) {
+    console.log('--- ' + condition + ' ---');
+    console.log(render(cases[0], condition));
+    console.log('\nWhat is the current ' + cases[0].predicate + ' for ' + cases[0].subject + '?');
+    console.log('  correct: ' + cases[0].current + '   majority would say: ' + cases[0].majority + '\n');
+  }
+  process.exit(0);
 }
 
 const started = Date.now();
