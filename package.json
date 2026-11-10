@@ -7,7 +7,12 @@
   "scripts": {
     "experiment": "node src/experiment.js",
     "test": "node src/store.test.js",
-    "sweep": "node src/sweep.js"
+    "sweep": "node src/sweep.js",
+    "validate": "node src/validate.js",
+    "validate:pilot": "node src/validate.js --pilot"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^1.7.0"
+  }
 }
