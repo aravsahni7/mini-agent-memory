@@ -1,14 +1,15 @@
 # mini-agent-memory
 
+**Inspired by [The components of agent memory](https://www.anthropic.com/research/components-of-agent-memory)**, Lance Martin, Anthropic, 6 Nov 2026.
+
 A tiny implementation of a write, recall, consolidate and forget loop, built to
 test what consolidation without forgetting does to the answer an agent gives.
 
-Prompted by [The components of agent memory](https://www.anthropic.com/research/components-of-agent-memory),
-Lance Martin, Anthropic, 6 Nov 2026. Those four operations are my framing and
-not the post's. The post describes a layered store and an offline pass that
-replays transcripts and distills them, and it treats forgetting only as pruning
-to keep the top layer small. What a stale fact does to the answer once it has
-been consolidated is left open, so that is what this measures.
+Those four operations are my framing and not the post's. The post describes a
+layered store and an offline pass that replays transcripts and distills them,
+and it treats forgetting only as pruning to keep the top layer small. What a
+stale fact does to the answer once it has been consolidated is left open, so
+that is what this measures.
 
 Zero dependencies for the simulation, deterministic, offline. The reader it
 relies on is not assumed, it is measured against `claude-opus-5-5` and
