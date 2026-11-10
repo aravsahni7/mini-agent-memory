@@ -19,7 +19,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 4
         },
         {
@@ -28,7 +28,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 8
         },
         {
@@ -37,7 +37,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 12
         },
         {
@@ -46,7 +46,7 @@
           "top1Accuracy": 0.8333333333333334,
           "precisionAtK": 0.9166666666666666,
           "answerFirst": 0.8333333333333334,
-          "answerMajority": 0.8333333333333334,
+          "answerLast": 1,
           "activeMemories": 16
         },
         {
@@ -55,7 +55,7 @@
           "top1Accuracy": 0.6666666666666666,
           "precisionAtK": 0.7777777777777777,
           "answerFirst": 0.6666666666666666,
-          "answerMajority": 0.6666666666666666,
+          "answerLast": 1,
           "activeMemories": 32
         },
         {
@@ -64,7 +64,7 @@
           "top1Accuracy": 0.5833333333333334,
           "precisionAtK": 0.7222222222222222,
           "answerFirst": 0.5833333333333334,
-          "answerMajority": 0.5833333333333334,
+          "answerLast": 1,
           "activeMemories": 36
         },
         {
@@ -73,7 +73,7 @@
           "top1Accuracy": 0.5,
           "precisionAtK": 0.6527777777777778,
           "answerFirst": 0.5,
-          "answerMajority": 0.5,
+          "answerLast": 0.9166666666666666,
           "activeMemories": 40
         },
         {
@@ -82,7 +82,7 @@
           "top1Accuracy": 0.4166666666666667,
           "precisionAtK": 0.5902777777777778,
           "answerFirst": 0.4166666666666667,
-          "answerMajority": 0.5,
+          "answerLast": 0.8333333333333334,
           "activeMemories": 44
         },
         {
@@ -91,7 +91,7 @@
           "top1Accuracy": 0.16666666666666666,
           "precisionAtK": 0.3958333333333333,
           "answerFirst": 0.16666666666666666,
-          "answerMajority": 0.25,
+          "answerLast": 0.5,
           "activeMemories": 48
         },
         {
@@ -100,7 +100,7 @@
           "top1Accuracy": 0.08333333333333333,
           "precisionAtK": 0.2833333333333334,
           "answerFirst": 0.08333333333333333,
-          "answerMajority": 0.16666666666666666,
+          "answerLast": 0.8333333333333334,
           "activeMemories": 64
         },
         {
@@ -109,7 +109,7 @@
           "top1Accuracy": 0.08333333333333333,
           "precisionAtK": 0.3166666666666667,
           "answerFirst": 0.08333333333333333,
-          "answerMajority": 0.16666666666666666,
+          "answerLast": 0.6666666666666666,
           "activeMemories": 68
         },
         {
@@ -118,7 +118,7 @@
           "top1Accuracy": 0.08333333333333333,
           "precisionAtK": 0.3166666666666667,
           "answerFirst": 0.08333333333333333,
-          "answerMajority": 0.08333333333333333,
+          "answerLast": 0.3333333333333333,
           "activeMemories": 72
         },
         {
@@ -127,7 +127,7 @@
           "top1Accuracy": 0.08333333333333333,
           "precisionAtK": 0.30000000000000004,
           "answerFirst": 0.08333333333333333,
-          "answerMajority": 0.08333333333333333,
+          "answerLast": 0.5,
           "activeMemories": 76
         },
         {
@@ -136,7 +136,7 @@
           "top1Accuracy": 0.08333333333333333,
           "precisionAtK": 0.3166666666666667,
           "answerFirst": 0.08333333333333333,
-          "answerMajority": 0.16666666666666666,
+          "answerLast": 0.8333333333333334,
           "activeMemories": 80
         },
         {
@@ -145,7 +145,7 @@
           "top1Accuracy": 0.08333333333333333,
           "precisionAtK": 0.2833333333333334,
           "answerFirst": 0.08333333333333333,
-          "answerMajority": 0.16666666666666666,
+          "answerLast": 0.9166666666666666,
           "activeMemories": 96
         },
         {
@@ -154,7 +154,7 @@
           "top1Accuracy": 0.08333333333333333,
           "precisionAtK": 0.2666666666666667,
           "answerFirst": 0.08333333333333333,
-          "answerMajority": 0.16666666666666666,
+          "answerLast": 0.8333333333333334,
           "activeMemories": 100
         },
         {
@@ -163,7 +163,7 @@
           "top1Accuracy": 0.08333333333333333,
           "precisionAtK": 0.2333333333333334,
           "answerFirst": 0.08333333333333333,
-          "answerMajority": 0.16666666666666666,
+          "answerLast": 0.6666666666666666,
           "activeMemories": 104
         },
         {
@@ -172,7 +172,7 @@
           "top1Accuracy": 0,
           "precisionAtK": 0.13333333333333333,
           "answerFirst": 0,
-          "answerMajority": 0.08333333333333333,
+          "answerLast": 0.5,
           "activeMemories": 108
         },
         {
@@ -181,7 +181,7 @@
           "top1Accuracy": 0,
           "precisionAtK": 0.09999999999999999,
           "answerFirst": 0,
-          "answerMajority": 0.08333333333333333,
+          "answerLast": 0.3333333333333333,
           "activeMemories": 112
         },
         {
@@ -190,7 +190,7 @@
           "top1Accuracy": 0,
           "precisionAtK": 0.08333333333333333,
           "answerFirst": 0,
-          "answerMajority": 0.08333333333333333,
+          "answerLast": 0.25,
           "activeMemories": 128
         }
       ],
@@ -212,7 +212,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 4
         },
         {
@@ -221,7 +221,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 8
         },
         {
@@ -230,7 +230,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 12
         },
         {
@@ -239,7 +239,7 @@
           "top1Accuracy": 0.9208333333333334,
           "precisionAtK": 0.9166666666666666,
           "answerFirst": 0.9208333333333334,
-          "answerMajority": 0.9208333333333334,
+          "answerLast": 0.9124999999999999,
           "activeMemories": 16
         },
         {
@@ -248,7 +248,7 @@
           "top1Accuracy": 0.8333333333333333,
           "precisionAtK": 0.777777777777778,
           "answerFirst": 0.8333333333333333,
-          "answerMajority": 0.8333333333333333,
+          "answerLast": 1,
           "activeMemories": 32
         },
         {
@@ -257,7 +257,7 @@
           "top1Accuracy": 0.7583333333333335,
           "precisionAtK": 0.7222222222222219,
           "answerFirst": 0.7583333333333335,
-          "answerMajority": 0.7500000000000001,
+          "answerLast": 0.9375,
           "activeMemories": 36
         },
         {
@@ -266,7 +266,7 @@
           "top1Accuracy": 0.6583333333333333,
           "precisionAtK": 0.652777777777778,
           "answerFirst": 0.6583333333333333,
-          "answerMajority": 0.6208333333333333,
+          "answerLast": 0.7875000000000002,
           "activeMemories": 40
         },
         {
@@ -275,7 +275,7 @@
           "top1Accuracy": 0.5708333333333333,
           "precisionAtK": 0.590277777777778,
           "answerFirst": 0.5708333333333333,
-          "answerMajority": 0.5375,
+          "answerLast": 0.625,
           "activeMemories": 44
         },
         {
@@ -284,7 +284,7 @@
           "top1Accuracy": 0.3916666666666667,
           "precisionAtK": 0.3958333333333332,
           "answerFirst": 0.3916666666666667,
-          "answerMajority": 0.25,
+          "answerLast": 0.29166666666666663,
           "activeMemories": 48
         },
         {
@@ -293,7 +293,7 @@
           "top1Accuracy": 0.2958333333333334,
           "precisionAtK": 0.2833333333333333,
           "answerFirst": 0.2958333333333334,
-          "answerMajority": 0.1666666666666666,
+          "answerLast": 0.7625000000000001,
           "activeMemories": 64
         },
         {
@@ -302,7 +302,7 @@
           "top1Accuracy": 0.36666666666666664,
           "precisionAtK": 0.31666666666666665,
           "answerFirst": 0.36666666666666664,
-          "answerMajority": 0.1666666666666666,
+          "answerLast": 0.4624999999999999,
           "activeMemories": 68
         },
         {
@@ -311,7 +311,7 @@
           "top1Accuracy": 0.38333333333333325,
           "precisionAtK": 0.31666666666666665,
           "answerFirst": 0.38333333333333325,
-          "answerMajority": 0.125,
+          "answerLast": 0.12916666666666668,
           "activeMemories": 72
         },
         {
@@ -320,7 +320,7 @@
           "top1Accuracy": 0.3499999999999999,
           "precisionAtK": 0.3266666666666666,
           "answerFirst": 0.3499999999999999,
-          "answerMajority": 0.1708333333333333,
+          "answerLast": 0.17500000000000002,
           "activeMemories": 76
         },
         {
@@ -329,7 +329,7 @@
           "top1Accuracy": 0.35416666666666663,
           "precisionAtK": 0.3433333333333333,
           "answerFirst": 0.35416666666666663,
-          "answerMajority": 0.2708333333333333,
+          "answerLast": 0.24583333333333335,
           "activeMemories": 80
         },
         {
@@ -338,7 +338,7 @@
           "top1Accuracy": 0.3625,
           "precisionAtK": 0.3241666666666666,
           "answerFirst": 0.3625,
-          "answerMajority": 0.29583333333333334,
+          "answerLast": 0.25000000000000006,
           "activeMemories": 96
         },
         {
@@ -347,7 +347,7 @@
           "top1Accuracy": 0.4166666666666667,
           "precisionAtK": 0.36083333333333345,
           "answerFirst": 0.4166666666666667,
-          "answerMajority": 0.4333333333333333,
+          "answerLast": 0.2791666666666667,
           "activeMemories": 100
         },
         {
@@ -356,7 +356,7 @@
           "top1Accuracy": 0.4208333333333332,
           "precisionAtK": 0.3708333333333334,
           "answerFirst": 0.4208333333333332,
-          "answerMajority": 0.4958333333333333,
+          "answerLast": 0.3000000000000001,
           "activeMemories": 104
         },
         {
@@ -365,7 +365,7 @@
           "top1Accuracy": 0.32499999999999996,
           "precisionAtK": 0.31749999999999995,
           "answerFirst": 0.32499999999999996,
-          "answerMajority": 0.4291666666666667,
+          "answerLast": 0.26666666666666666,
           "activeMemories": 108
         },
         {
@@ -374,7 +374,7 @@
           "top1Accuracy": 0.2375,
           "precisionAtK": 0.265,
           "answerFirst": 0.2375,
-          "answerMajority": 0.2833333333333333,
+          "answerLast": 0.25416666666666665,
           "activeMemories": 112
         },
         {
@@ -383,7 +383,7 @@
           "top1Accuracy": 0.20833333333333331,
           "precisionAtK": 0.25999999999999995,
           "answerFirst": 0.20833333333333331,
-          "answerMajority": 0.27083333333333326,
+          "answerLast": 0.2708333333333333,
           "activeMemories": 128
         }
       ],
@@ -405,7 +405,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 4
         },
         {
@@ -414,7 +414,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 8
         },
         {
@@ -423,7 +423,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 12
         },
         {
@@ -432,7 +432,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.9166666666666666,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 0.8333333333333334,
           "activeMemories": 16
         },
         {
@@ -441,7 +441,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.7777777777777777,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 32
         },
         {
@@ -450,7 +450,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.7222222222222222,
           "answerFirst": 1,
-          "answerMajority": 0.9166666666666666,
+          "answerLast": 0.9166666666666666,
           "activeMemories": 36
         },
         {
@@ -459,7 +459,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.6527777777777778,
           "answerFirst": 1,
-          "answerMajority": 0.75,
+          "answerLast": 0.75,
           "activeMemories": 40
         },
         {
@@ -468,7 +468,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.5902777777777778,
           "answerFirst": 1,
-          "answerMajority": 0.5833333333333334,
+          "answerLast": 0.5833333333333334,
           "activeMemories": 44
         },
         {
@@ -477,7 +477,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.3958333333333333,
           "answerFirst": 1,
-          "answerMajority": 0.25,
+          "answerLast": 0.25,
           "activeMemories": 48
         },
         {
@@ -486,7 +486,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.2833333333333334,
           "answerFirst": 1,
-          "answerMajority": 0.16666666666666666,
+          "answerLast": 0.75,
           "activeMemories": 64
         },
         {
@@ -495,7 +495,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.3166666666666667,
           "answerFirst": 1,
-          "answerMajority": 0.16666666666666666,
+          "answerLast": 0.4166666666666667,
           "activeMemories": 68
         },
         {
@@ -504,7 +504,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.3166666666666667,
           "answerFirst": 1,
-          "answerMajority": 0.16666666666666666,
+          "answerLast": 0.08333333333333333,
           "activeMemories": 72
         },
         {
@@ -513,7 +513,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.3333333333333334,
           "answerFirst": 1,
-          "answerMajority": 0.25,
+          "answerLast": 0.08333333333333333,
           "activeMemories": 76
         },
         {
@@ -522,7 +522,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.3500000000000001,
           "answerFirst": 1,
-          "answerMajority": 0.4166666666666667,
+          "answerLast": 0.08333333333333333,
           "activeMemories": 80
         },
         {
@@ -531,7 +531,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.3333333333333334,
           "answerFirst": 1,
-          "answerMajority": 0.5,
+          "answerLast": 0.08333333333333333,
           "activeMemories": 96
         },
         {
@@ -540,7 +540,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.38333333333333336,
           "answerFirst": 1,
-          "answerMajority": 0.6666666666666666,
+          "answerLast": 0.08333333333333333,
           "activeMemories": 100
         },
         {
@@ -549,7 +549,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.4000000000000001,
           "answerFirst": 1,
-          "answerMajority": 0.6666666666666666,
+          "answerLast": 0.08333333333333333,
           "activeMemories": 104
         },
         {
@@ -558,7 +558,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.3666666666666667,
           "answerFirst": 1,
-          "answerMajority": 0.6666666666666666,
+          "answerLast": 0,
           "activeMemories": 108
         },
         {
@@ -567,7 +567,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.31666666666666676,
           "answerFirst": 1,
-          "answerMajority": 0.4166666666666667,
+          "answerLast": 0,
           "activeMemories": 112
         },
         {
@@ -576,7 +576,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 0.3333333333333333,
           "answerFirst": 1,
-          "answerMajority": 0.3333333333333333,
+          "answerLast": 0,
           "activeMemories": 128
         }
       ],
@@ -598,7 +598,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 4
         },
         {
@@ -607,7 +607,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 8
         },
         {
@@ -616,7 +616,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 12
         },
         {
@@ -625,7 +625,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 12
         },
         {
@@ -634,7 +634,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 24
         },
         {
@@ -643,7 +643,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 20
         },
         {
@@ -652,7 +652,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 18
         },
         {
@@ -661,7 +661,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 16
         },
         {
@@ -670,7 +670,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 12
         },
         {
@@ -679,7 +679,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 24
         },
         {
@@ -688,7 +688,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 20
         },
         {
@@ -697,7 +697,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 16
         },
         {
@@ -706,7 +706,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 15
         },
         {
@@ -715,7 +715,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 14
         },
         {
@@ -724,7 +724,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 24
         },
         {
@@ -733,7 +733,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 20
         },
         {
@@ -742,7 +742,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 16
         },
         {
@@ -751,7 +751,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 12
         },
         {
@@ -760,7 +760,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 12
         },
         {
@@ -769,7 +769,7 @@
           "top1Accuracy": 1,
           "precisionAtK": 1,
           "answerFirst": 1,
-          "answerMajority": 1,
+          "answerLast": 1,
           "activeMemories": 24
         }
       ],

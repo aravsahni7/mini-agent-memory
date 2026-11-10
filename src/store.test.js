@@ -166,3 +166,29 @@ test('a session never writes the same slot twice', () => {
     assert.equal(new Set(keys).size, keys.length, `session ${s.sessionId} repeats a slot`);
   }
 });
+
+test('the last reader takes the bottom of the list, not the best-ranked value', () => {
+  const results = [
+    { kind: 'fact', subject: 'deploy', predicate: 'target', value: 'vercel', t: 9 },
+    { kind: 'fact', subject: 'deploy', predicate: 'target', value: 'fly', t: 5 },
+    { kind: 'fact', subject: 'deploy', predicate: 'target', value: 'railway', t: 2 },
+  ];
+  const cands = candidates(results, { subject: 'deploy', predicate: 'target' });
+  assert.equal(READERS.first(cands), 'vercel');
+  assert.equal(READERS.last(cands), 'railway');
+});
+
+test('last and majority come apart, since the bottom line is not the common one', () => {
+  // this is the shape that told the two apart, because a reader counting copies
+  // says fly and a reader taking the bottom says railway
+  const results = [
+    { kind: 'fact', subject: 'queue', predicate: 'backend', value: 'nats', t: 9 },
+    { kind: 'fact', subject: 'queue', predicate: 'backend', value: 'fly', t: 7 },
+    { kind: 'fact', subject: 'queue', predicate: 'backend', value: 'fly', t: 5 },
+    { kind: 'fact', subject: 'queue', predicate: 'backend', value: 'railway', t: 2 },
+  ];
+  const cands = candidates(results, { subject: 'queue', predicate: 'backend' });
+  assert.equal(READERS.majority(cands), 'fly');
+  assert.equal(READERS.last(cands), 'railway');
+  assert.notEqual(READERS.majority(cands), READERS.last(cands));
+});

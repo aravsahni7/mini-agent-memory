@@ -3,7 +3,7 @@ import { MemoryStore } from './store.js';
 import { buildSessions, GroundTruth } from './sessions.js';
 import { evaluate } from './metrics.js';
 
-// Sweep how often facts change and watch where the majority reader breaks
+// Sweep how often facts change and watch where the last reader breaks
 // One seed is noisy, so every point is the mean over SEEDS runs
 
 const SEEDS = 24;
@@ -61,6 +61,7 @@ function point(forgetPolicy, changeRate) {
     changeRate,
     forgetPolicy,
     first: mean(runs.map((r) => r.answer.first)),
+    last: mean(runs.map((r) => r.answer.last)),
     majority: mean(runs.map((r) => r.answer.majority)),
     newest: mean(runs.map((r) => r.answer.newest)),
     precisionAtK: mean(runs.map((r) => r.precisionAtK)),
@@ -77,21 +78,21 @@ const num = (x) => x.toFixed(2).padStart(6);
 
 console.log(`\nAnswer accuracy by how often a fact changes`);
 console.log(`${SESSIONS} sessions, k=${K}, recency ranking, mean of ${SEEDS} seeds\n`);
-console.log('                  no forgetting                     | supersede');
-console.log(' change    first  majority    newest  cur/rival cps | majority');
-console.log('--------+-------------------------------+-----------+---------');
+console.log('                      no forgetting                       | supersede');
+console.log(' change    first     last  majority   newest  cur/rival | last');
+console.log('--------+----------------------------------+-----------+--------');
 for (let i = 0; i < RATES.length; i++) {
   const a = none[i];
   const b = supersede[i];
   console.log(
-    `  ${a.changeRate.toFixed(2)}  |${pct(a.first)}${pct(a.majority)}${pct(a.newest)} |${num(a.currentCopies)} /${num(a.rivalCopies)} |${pct(b.majority)}`
+    `  ${a.changeRate.toFixed(2)}  |${pct(a.first)}${pct(a.last)}${pct(a.majority)}${pct(a.newest)} |${num(a.currentCopies)} /${num(a.rivalCopies)} |${pct(b.last)}`
   );
 }
 
-const worst = none.reduce((a, b) => (b.majority < a.majority ? b : a));
+const worst = none.reduce((a, b) => (b.last < a.last ? b : a));
 console.log(
-  `\nWorst for the majority reader: changeRate ${worst.changeRate.toFixed(2)} ` +
-  `at ${pct(worst.majority).trim()}, where the current value holds ` +
+  `\nWorst for the last reader: changeRate ${worst.changeRate.toFixed(2)} ` +
+  `at ${pct(worst.last).trim()}, where the current value holds ` +
   `${worst.currentCopies.toFixed(2)} copies against a rival's ${worst.rivalCopies.toFixed(2)}\n`
 );
 

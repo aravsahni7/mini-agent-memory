@@ -1,0 +1,6397 @@
+{
+  "cases": [
+    {
+      "id": "s1-database",
+      "subject": "database",
+      "predicate": "engine",
+      "current": "mysql",
+      "majority": "sqlite",
+      "memories": [
+        {
+          "text": "database engine is mysql",
+          "t": 79
+        },
+        {
+          "text": "database engine is mysql",
+          "t": 64
+        },
+        {
+          "text": "database engine is sqlite",
+          "t": 60
+        },
+        {
+          "text": "database engine is sqlite",
+          "t": 47
+        },
+        {
+          "text": "database engine is sqlite",
+          "t": 31
+        }
+      ]
+    },
+    {
+      "id": "s1-deploy",
+      "subject": "deploy",
+      "predicate": "target",
+      "current": "heroku",
+      "majority": "railway",
+      "memories": [
+        {
+          "text": "deploy target is heroku",
+          "t": 73
+        },
+        {
+          "text": "deploy target is netlify",
+          "t": 54
+        },
+        {
+          "text": "deploy target is render",
+          "t": 43
+        },
+        {
+          "text": "deploy target is railway",
+          "t": 37
+        },
+        {
+          "text": "deploy target is railway",
+          "t": 20
+        }
+      ]
+    },
+    {
+      "id": "s1-runtime",
+      "subject": "runtime",
+      "predicate": "version",
+      "current": "bunone",
+      "majority": "nodetwenty",
+      "memories": [
+        {
+          "text": "runtime version is bunone",
+          "t": 83
+        },
+        {
+          "text": "runtime version is nodetwentyfour",
+          "t": 75
+        },
+        {
+          "text": "runtime version is nodetwentytwo",
+          "t": 55
+        },
+        {
+          "text": "runtime version is nodetwenty",
+          "t": 50
+        },
+        {
+          "text": "runtime version is nodetwenty",
+          "t": 28
+        }
+      ]
+    },
+    {
+      "id": "s1-cache",
+      "subject": "cache",
+      "predicate": "layer",
+      "current": "dragonfly",
+      "majority": "memcached",
+      "memories": [
+        {
+          "text": "cache layer is dragonfly",
+          "t": 67
+        },
+        {
+          "text": "cache layer is memcached",
+          "t": 57
+        },
+        {
+          "text": "cache layer is memcached",
+          "t": 39
+        },
+        {
+          "text": "cache layer is memcached",
+          "t": 35
+        },
+        {
+          "text": "cache layer is upstash",
+          "t": 14
+        }
+      ]
+    },
+    {
+      "id": "s1-auth",
+      "subject": "auth",
+      "predicate": "provider",
+      "current": "supabase",
+      "majority": "authzero",
+      "memories": [
+        {
+          "text": "auth provider is supabase",
+          "t": 77
+        },
+        {
+          "text": "auth provider is authzero",
+          "t": 71
+        },
+        {
+          "text": "auth provider is authzero",
+          "t": 62
+        },
+        {
+          "text": "auth provider is authzero",
+          "t": 41
+        },
+        {
+          "text": "auth provider is clerk",
+          "t": 29
+        }
+      ]
+    },
+    {
+      "id": "s1-logging",
+      "subject": "logging",
+      "predicate": "sink",
+      "current": "splunk",
+      "majority": "betterstack",
+      "memories": [
+        {
+          "text": "logging sink is splunk",
+          "t": 69
+        },
+        {
+          "text": "logging sink is honeycomb",
+          "t": 52
+        },
+        {
+          "text": "logging sink is betterstack",
+          "t": 45
+        },
+        {
+          "text": "logging sink is betterstack",
+          "t": 27
+        },
+        {
+          "text": "logging sink is axiom",
+          "t": 23
+        }
+      ]
+    },
+    {
+      "id": "s1-styling",
+      "subject": "styling",
+      "predicate": "framework",
+      "current": "stitches",
+      "majority": "vanilla",
+      "memories": [
+        {
+          "text": "styling framework is stitches",
+          "t": 81
+        },
+        {
+          "text": "styling framework is stitches",
+          "t": 65
+        },
+        {
+          "text": "styling framework is vanilla",
+          "t": 59
+        },
+        {
+          "text": "styling framework is vanilla",
+          "t": 46
+        },
+        {
+          "text": "styling framework is vanilla",
+          "t": 32
+        }
+      ]
+    },
+    {
+      "id": "s2-logging",
+      "subject": "logging",
+      "predicate": "sink",
+      "current": "loki",
+      "majority": "honeycomb",
+      "memories": [
+        {
+          "text": "logging sink is loki",
+          "t": 79
+        },
+        {
+          "text": "logging sink is splunk",
+          "t": 64
+        },
+        {
+          "text": "logging sink is honeycomb",
+          "t": 56
+        },
+        {
+          "text": "logging sink is honeycomb",
+          "t": 46
+        },
+        {
+          "text": "logging sink is betterstack",
+          "t": 37
+        }
+      ]
+    },
+    {
+      "id": "s2-search",
+      "subject": "search",
+      "predicate": "index",
+      "current": "elastic",
+      "majority": "meilisearch",
+      "memories": [
+        {
+          "text": "search index is elastic",
+          "t": 66
+        },
+        {
+          "text": "search index is algolia",
+          "t": 54
+        },
+        {
+          "text": "search index is meilisearch",
+          "t": 45
+        },
+        {
+          "text": "search index is meilisearch",
+          "t": 28
+        },
+        {
+          "text": "search index is meilisearch",
+          "t": 25
+        }
+      ]
+    },
+    {
+      "id": "s2-deploy",
+      "subject": "deploy",
+      "predicate": "target",
+      "current": "railway",
+      "majority": "vercel",
+      "memories": [
+        {
+          "text": "deploy target is railway",
+          "t": 65
+        },
+        {
+          "text": "deploy target is vercel",
+          "t": 55
+        },
+        {
+          "text": "deploy target is vercel",
+          "t": 40
+        },
+        {
+          "text": "deploy target is vercel",
+          "t": 29
+        },
+        {
+          "text": "deploy target is vercel",
+          "t": 20
+        }
+      ]
+    },
+    {
+      "id": "s2-payments",
+      "subject": "payments",
+      "predicate": "processor",
+      "current": "square",
+      "majority": "adyen",
+      "memories": [
+        {
+          "text": "payments processor is square",
+          "t": 77
+        },
+        {
+          "text": "payments processor is adyen",
+          "t": 70
+        },
+        {
+          "text": "payments processor is adyen",
+          "t": 51
+        },
+        {
+          "text": "payments processor is braintree",
+          "t": 44
+        },
+        {
+          "text": "payments processor is lemonsqueezy",
+          "t": 36
+        }
+      ]
+    },
+    {
+      "id": "s2-queue",
+      "subject": "queue",
+      "predicate": "backend",
+      "current": "nats",
+      "majority": "rabbitmq",
+      "memories": [
+        {
+          "text": "queue backend is nats",
+          "t": 82
+        },
+        {
+          "text": "queue backend is rabbitmq",
+          "t": 74
+        },
+        {
+          "text": "queue backend is rabbitmq",
+          "t": 53
+        },
+        {
+          "text": "queue backend is sqs",
+          "t": 41
+        },
+        {
+          "text": "queue backend is sqs",
+          "t": 35
+        }
+      ]
+    },
+    {
+      "id": "s2-styling",
+      "subject": "styling",
+      "predicate": "framework",
+      "current": "emotion",
+      "majority": "vanilla",
+      "memories": [
+        {
+          "text": "styling framework is emotion",
+          "t": 78
+        },
+        {
+          "text": "styling framework is stitches",
+          "t": 72
+        },
+        {
+          "text": "styling framework is vanilla",
+          "t": 52
+        },
+        {
+          "text": "styling framework is vanilla",
+          "t": 39
+        },
+        {
+          "text": "styling framework is panda",
+          "t": 30
+        }
+      ]
+    },
+    {
+      "id": "s3-cdn",
+      "subject": "cdn",
+      "predicate": "edge",
+      "current": "akamai",
+      "majority": "bunny",
+      "memories": [
+        {
+          "text": "cdn edge is akamai",
+          "t": 68
+        },
+        {
+          "text": "cdn edge is bunny",
+          "t": 60
+        },
+        {
+          "text": "cdn edge is bunny",
+          "t": 41
+        },
+        {
+          "text": "cdn edge is fastly",
+          "t": 32
+        },
+        {
+          "text": "cdn edge is cloudflare",
+          "t": 16
+        }
+      ]
+    },
+    {
+      "id": "s3-queue",
+      "subject": "queue",
+      "predicate": "backend",
+      "current": "nats",
+      "majority": "rabbitmq",
+      "memories": [
+        {
+          "text": "queue backend is nats",
+          "t": 76
+        },
+        {
+          "text": "queue backend is rabbitmq",
+          "t": 65
+        },
+        {
+          "text": "queue backend is rabbitmq",
+          "t": 53
+        },
+        {
+          "text": "queue backend is rabbitmq",
+          "t": 40
+        },
+        {
+          "text": "queue backend is rabbitmq",
+          "t": 33
+        }
+      ]
+    },
+    {
+      "id": "s3-payments",
+      "subject": "payments",
+      "predicate": "processor",
+      "current": "adyen",
+      "majority": "paddle",
+      "memories": [
+        {
+          "text": "payments processor is adyen",
+          "t": 71
+        },
+        {
+          "text": "payments processor is braintree",
+          "t": 58
+        },
+        {
+          "text": "payments processor is lemonsqueezy",
+          "t": 38
+        },
+        {
+          "text": "payments processor is paddle",
+          "t": 30
+        },
+        {
+          "text": "payments processor is paddle",
+          "t": 20
+        }
+      ]
+    },
+    {
+      "id": "s3-search",
+      "subject": "search",
+      "predicate": "index",
+      "current": "elastic",
+      "majority": "typesense",
+      "memories": [
+        {
+          "text": "search index is elastic",
+          "t": 67
+        },
+        {
+          "text": "search index is algolia",
+          "t": 59
+        },
+        {
+          "text": "search index is meilisearch",
+          "t": 46
+        },
+        {
+          "text": "search index is typesense",
+          "t": 29
+        },
+        {
+          "text": "search index is typesense",
+          "t": 15
+        }
+      ]
+    },
+    {
+      "id": "s3-cache",
+      "subject": "cache",
+      "predicate": "layer",
+      "current": "hazelcast",
+      "majority": "memcached",
+      "memories": [
+        {
+          "text": "cache layer is hazelcast",
+          "t": 79
+        },
+        {
+          "text": "cache layer is valkey",
+          "t": 73
+        },
+        {
+          "text": "cache layer is dragonfly",
+          "t": 55
+        },
+        {
+          "text": "cache layer is memcached",
+          "t": 48
+        },
+        {
+          "text": "cache layer is memcached",
+          "t": 26
+        }
+      ]
+    },
+    {
+      "id": "s3-testing",
+      "subject": "testing",
+      "predicate": "runner",
+      "current": "tap",
+      "majority": "bun",
+      "memories": [
+        {
+          "text": "testing runner is tap",
+          "t": 77
+        },
+        {
+          "text": "testing runner is ava",
+          "t": 64
+        },
+        {
+          "text": "testing runner is bun",
+          "t": 57
+        },
+        {
+          "text": "testing runner is bun",
+          "t": 47
+        },
+        {
+          "text": "testing runner is mocha",
+          "t": 27
+        }
+      ]
+    },
+    {
+      "id": "s3-deploy",
+      "subject": "deploy",
+      "predicate": "target",
+      "current": "netlify",
+      "majority": "railway",
+      "memories": [
+        {
+          "text": "deploy target is netlify",
+          "t": 80
+        },
+        {
+          "text": "deploy target is render",
+          "t": 70
+        },
+        {
+          "text": "deploy target is railway",
+          "t": 54
+        },
+        {
+          "text": "deploy target is railway",
+          "t": 44
+        },
+        {
+          "text": "deploy target is vercel",
+          "t": 34
+        }
+      ]
+    },
+    {
+      "id": "s3-auth",
+      "subject": "auth",
+      "predicate": "provider",
+      "current": "okta",
+      "majority": "supabase",
+      "memories": [
+        {
+          "text": "auth provider is okta",
+          "t": 78
+        },
+        {
+          "text": "auth provider is firebase",
+          "t": 74
+        },
+        {
+          "text": "auth provider is supabase",
+          "t": 56
+        },
+        {
+          "text": "auth provider is supabase",
+          "t": 45
+        },
+        {
+          "text": "auth provider is authzero",
+          "t": 36
+        }
+      ]
+    },
+    {
+      "id": "s4-runtime",
+      "subject": "runtime",
+      "predicate": "version",
+      "current": "nodetwentytwo",
+      "majority": "nodeeighteen",
+      "memories": [
+        {
+          "text": "runtime version is nodetwentytwo",
+          "t": 76
+        },
+        {
+          "text": "runtime version is nodetwenty",
+          "t": 69
+        },
+        {
+          "text": "runtime version is nodeeighteen",
+          "t": 54
+        },
+        {
+          "text": "runtime version is nodeeighteen",
+          "t": 38
+        },
+        {
+          "text": "runtime version is nodeeighteen",
+          "t": 27
+        }
+      ]
+    },
+    {
+      "id": "s4-testing",
+      "subject": "testing",
+      "predicate": "runner",
+      "current": "bun",
+      "majority": "mocha",
+      "memories": [
+        {
+          "text": "testing runner is bun",
+          "t": 78
+        },
+        {
+          "text": "testing runner is mocha",
+          "t": 70
+        },
+        {
+          "text": "testing runner is mocha",
+          "t": 58
+        },
+        {
+          "text": "testing runner is mocha",
+          "t": 41
+        },
+        {
+          "text": "testing runner is vitest",
+          "t": 28
+        }
+      ]
+    },
+    {
+      "id": "s4-logging",
+      "subject": "logging",
+      "predicate": "sink",
+      "current": "splunk",
+      "majority": "honeycomb",
+      "memories": [
+        {
+          "text": "logging sink is splunk",
+          "t": 64
+        },
+        {
+          "text": "logging sink is honeycomb",
+          "t": 53
+        },
+        {
+          "text": "logging sink is honeycomb",
+          "t": 49
+        },
+        {
+          "text": "logging sink is betterstack",
+          "t": 29
+        },
+        {
+          "text": "logging sink is axiom",
+          "t": 18
+        }
+      ]
+    },
+    {
+      "id": "s4-database",
+      "subject": "database",
+      "predicate": "engine",
+      "current": "planetscale",
+      "majority": "mysql",
+      "memories": [
+        {
+          "text": "database engine is planetscale",
+          "t": 83
+        },
+        {
+          "text": "database engine is cockroach",
+          "t": 72
+        },
+        {
+          "text": "database engine is duckdb",
+          "t": 59
+        },
+        {
+          "text": "database engine is mysql",
+          "t": 39
+        },
+        {
+          "text": "database engine is mysql",
+          "t": 34
+        }
+      ]
+    },
+    {
+      "id": "s5-auth",
+      "subject": "auth",
+      "predicate": "provider",
+      "current": "firebase",
+      "majority": "supabase",
+      "memories": [
+        {
+          "text": "auth provider is firebase",
+          "t": 67
+        },
+        {
+          "text": "auth provider is supabase",
+          "t": 59
+        },
+        {
+          "text": "auth provider is supabase",
+          "t": 46
+        },
+        {
+          "text": "auth provider is authzero",
+          "t": 34
+        },
+        {
+          "text": "auth provider is authzero",
+          "t": 18
+        }
+      ]
+    },
+    {
+      "id": "s5-cache",
+      "subject": "cache",
+      "predicate": "layer",
+      "current": "hazelcast",
+      "majority": "dragonfly",
+      "memories": [
+        {
+          "text": "cache layer is hazelcast",
+          "t": 82
+        },
+        {
+          "text": "cache layer is valkey",
+          "t": 66
+        },
+        {
+          "text": "cache layer is dragonfly",
+          "t": 52
+        },
+        {
+          "text": "cache layer is dragonfly",
+          "t": 47
+        },
+        {
+          "text": "cache layer is memcached",
+          "t": 27
+        }
+      ]
+    },
+    {
+      "id": "s5-logging",
+      "subject": "logging",
+      "predicate": "sink",
+      "current": "betterstack",
+      "majority": "datadog",
+      "memories": [
+        {
+          "text": "logging sink is betterstack",
+          "t": 79
+        },
+        {
+          "text": "logging sink is axiom",
+          "t": 69
+        },
+        {
+          "text": "logging sink is datadog",
+          "t": 58
+        },
+        {
+          "text": "logging sink is datadog",
+          "t": 43
+        },
+        {
+          "text": "logging sink is datadog",
+          "t": 33
+        }
+      ]
+    },
+    {
+      "id": "s5-database",
+      "subject": "database",
+      "predicate": "engine",
+      "current": "cockroach",
+      "majority": "sqlite",
+      "memories": [
+        {
+          "text": "database engine is cockroach",
+          "t": 76
+        },
+        {
+          "text": "database engine is duckdb",
+          "t": 65
+        },
+        {
+          "text": "database engine is mysql",
+          "t": 56
+        },
+        {
+          "text": "database engine is sqlite",
+          "t": 40
+        },
+        {
+          "text": "database engine is sqlite",
+          "t": 36
+        }
+      ]
+    },
+    {
+      "id": "s5-testing",
+      "subject": "testing",
+      "predicate": "runner",
+      "current": "bun",
+      "majority": "mocha",
+      "memories": [
+        {
+          "text": "testing runner is bun",
+          "t": 78
+        },
+        {
+          "text": "testing runner is mocha",
+          "t": 75
+        },
+        {
+          "text": "testing runner is mocha",
+          "t": 57
+        },
+        {
+          "text": "testing runner is vitest",
+          "t": 49
+        },
+        {
+          "text": "testing runner is vitest",
+          "t": 32
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s1-database",
+      "verdict": "stale",
+      "answer": "sqlite",
+      "usage": {
+        "input_tokens": 115,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 39,
+        "output_tokens_details": {
+          "thinking_tokens": 33
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s1-deploy",
+      "verdict": "stale",
+      "answer": "railway",
+      "usage": {
+        "input_tokens": 114,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s1-runtime",
+      "verdict": "stale",
+      "answer": "nodetwenty",
+      "usage": {
+        "input_tokens": 134,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 61,
+        "output_tokens_details": {
+          "thinking_tokens": 53
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s1-cache",
+      "verdict": "other",
+      "answer": "upstash",
+      "usage": {
+        "input_tokens": 120,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 101,
+        "output_tokens_details": {
+          "thinking_tokens": 96
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s1-auth",
+      "verdict": "other",
+      "answer": "clerk",
+      "usage": {
+        "input_tokens": 118,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 72,
+        "output_tokens_details": {
+          "thinking_tokens": 67
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s1-logging",
+      "verdict": "other",
+      "answer": "axiom",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 34,
+        "output_tokens_details": {
+          "thinking_tokens": 29
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s1-styling",
+      "verdict": "stale",
+      "answer": "vanilla",
+      "usage": {
+        "input_tokens": 121,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 37,
+        "output_tokens_details": {
+          "thinking_tokens": 31
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s2-logging",
+      "verdict": "other",
+      "answer": "betterstack",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 29,
+        "output_tokens_details": {
+          "thinking_tokens": 23
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s2-search",
+      "verdict": "stale",
+      "answer": "meilisearch",
+      "usage": {
+        "input_tokens": 112,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 39,
+        "output_tokens_details": {
+          "thinking_tokens": 32
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s2-deploy",
+      "verdict": "stale",
+      "answer": "vercel",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 18,
+        "output_tokens_details": {
+          "thinking_tokens": 13
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s2-payments",
+      "verdict": "other",
+      "answer": "lemonsqueezy",
+      "usage": {
+        "input_tokens": 121,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 34,
+        "output_tokens_details": {
+          "thinking_tokens": 24
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s2-queue",
+      "verdict": "other",
+      "answer": "sqs",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 43,
+        "output_tokens_details": {
+          "thinking_tokens": 38
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s2-styling",
+      "verdict": "other",
+      "answer": "panda",
+      "usage": {
+        "input_tokens": 119,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 56,
+        "output_tokens_details": {
+          "thinking_tokens": 52
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s3-cdn",
+      "verdict": "other",
+      "answer": "cloudflare",
+      "usage": {
+        "input_tokens": 126,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 52,
+        "output_tokens_details": {
+          "thinking_tokens": 45
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s3-queue",
+      "verdict": "stale",
+      "answer": "rabbitmq",
+      "usage": {
+        "input_tokens": 129,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 8,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s3-payments",
+      "verdict": "stale",
+      "answer": "paddle",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 38,
+        "output_tokens_details": {
+          "thinking_tokens": 33
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s3-search",
+      "verdict": "stale",
+      "answer": "typesense",
+      "usage": {
+        "input_tokens": 108,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "output_tokens_details": {
+          "thinking_tokens": 28
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s3-cache",
+      "verdict": "stale",
+      "answer": "memcached",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 39,
+        "output_tokens_details": {
+          "thinking_tokens": 34
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s3-testing",
+      "verdict": "other",
+      "answer": "mocha",
+      "usage": {
+        "input_tokens": 114,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 57,
+        "output_tokens_details": {
+          "thinking_tokens": 52
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s3-deploy",
+      "verdict": "other",
+      "answer": "vercel",
+      "usage": {
+        "input_tokens": 114,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 70,
+        "output_tokens_details": {
+          "thinking_tokens": 65
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s3-auth",
+      "verdict": "other",
+      "answer": "authzero",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 69,
+        "output_tokens_details": {
+          "thinking_tokens": 64
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s4-runtime",
+      "verdict": "stale",
+      "answer": "nodeeighteen",
+      "usage": {
+        "input_tokens": 138,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 81,
+        "output_tokens_details": {
+          "thinking_tokens": 72
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s4-testing",
+      "verdict": "other",
+      "answer": "vitest",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 160,
+        "output_tokens_details": {
+          "thinking_tokens": 155
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s4-logging",
+      "verdict": "other",
+      "answer": "axiom",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 29,
+        "output_tokens_details": {
+          "thinking_tokens": 24
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s4-database",
+      "verdict": "stale",
+      "answer": "mysql",
+      "usage": {
+        "input_tokens": 115,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 32,
+        "output_tokens_details": {
+          "thinking_tokens": 27
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s5-auth",
+      "verdict": "other",
+      "answer": "authzero",
+      "usage": {
+        "input_tokens": 118,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 58,
+        "output_tokens_details": {
+          "thinking_tokens": 53
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s5-cache",
+      "verdict": "other",
+      "answer": "memcached",
+      "usage": {
+        "input_tokens": 124,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 58,
+        "output_tokens_details": {
+          "thinking_tokens": 53
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s5-logging",
+      "verdict": "stale",
+      "answer": "datadog",
+      "usage": {
+        "input_tokens": 119,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "thinking_tokens": 10
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s5-database",
+      "verdict": "stale",
+      "answer": "sqlite",
+      "usage": {
+        "input_tokens": 116,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 43,
+        "output_tokens_details": {
+          "thinking_tokens": 37
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "rank",
+      "case": "s5-testing",
+      "verdict": "other",
+      "answer": "vitest",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 58,
+        "output_tokens_details": {
+          "thinking_tokens": 53
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s1-database",
+      "verdict": "current",
+      "answer": "mysql",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s1-deploy",
+      "verdict": "current",
+      "answer": "heroku",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s1-runtime",
+      "verdict": "current",
+      "answer": "bunone",
+      "usage": {
+        "input_tokens": 142,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s1-cache",
+      "verdict": "current",
+      "answer": "dragonfly",
+      "usage": {
+        "input_tokens": 128,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "thinking_tokens": 13
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s1-auth",
+      "verdict": "current",
+      "answer": "supabase",
+      "usage": {
+        "input_tokens": 126,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s1-logging",
+      "verdict": "current",
+      "answer": "splunk",
+      "usage": {
+        "input_tokens": 130,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s1-styling",
+      "verdict": "current",
+      "answer": "stitches",
+      "usage": {
+        "input_tokens": 129,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "thinking_tokens": 14
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s2-logging",
+      "verdict": "current",
+      "answer": "loki",
+      "usage": {
+        "input_tokens": 130,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s2-search",
+      "verdict": "current",
+      "answer": "elastic",
+      "usage": {
+        "input_tokens": 120,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 26,
+        "output_tokens_details": {
+          "thinking_tokens": 21
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s2-deploy",
+      "verdict": "current",
+      "answer": "railway",
+      "usage": {
+        "input_tokens": 125,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s2-payments",
+      "verdict": "current",
+      "answer": "square",
+      "usage": {
+        "input_tokens": 129,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 3,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s2-queue",
+      "verdict": "current",
+      "answer": "nats",
+      "usage": {
+        "input_tokens": 131,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s2-styling",
+      "verdict": "current",
+      "answer": "emotion",
+      "usage": {
+        "input_tokens": 127,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s3-cdn",
+      "verdict": "current",
+      "answer": "akamai",
+      "usage": {
+        "input_tokens": 134,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s3-queue",
+      "verdict": "current",
+      "answer": "nats",
+      "usage": {
+        "input_tokens": 137,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s3-payments",
+      "verdict": "current",
+      "answer": "adyen",
+      "usage": {
+        "input_tokens": 131,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s3-search",
+      "verdict": "current",
+      "answer": "elastic",
+      "usage": {
+        "input_tokens": 116,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s3-cache",
+      "verdict": "current",
+      "answer": "hazelcast",
+      "usage": {
+        "input_tokens": 130,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s3-testing",
+      "verdict": "current",
+      "answer": "tap",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s3-deploy",
+      "verdict": "current",
+      "answer": "netlify",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 16,
+        "output_tokens_details": {
+          "thinking_tokens": 11
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s3-auth",
+      "verdict": "current",
+      "answer": "okta",
+      "usage": {
+        "input_tokens": 125,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s4-runtime",
+      "verdict": "current",
+      "answer": "nodetwentytwo",
+      "usage": {
+        "input_tokens": 146,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 10,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s4-testing",
+      "verdict": "current",
+      "answer": "bun",
+      "usage": {
+        "input_tokens": 125,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s4-logging",
+      "verdict": "current",
+      "answer": "splunk",
+      "usage": {
+        "input_tokens": 131,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s4-database",
+      "verdict": "current",
+      "answer": "planetscale",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s5-auth",
+      "verdict": "current",
+      "answer": "firebase",
+      "usage": {
+        "input_tokens": 126,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s5-cache",
+      "verdict": "current",
+      "answer": "hazelcast",
+      "usage": {
+        "input_tokens": 132,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s5-logging",
+      "verdict": "current",
+      "answer": "betterstack",
+      "usage": {
+        "input_tokens": 127,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s5-database",
+      "verdict": "current",
+      "answer": "cockroach",
+      "usage": {
+        "input_tokens": 124,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "labeled",
+      "case": "s5-testing",
+      "verdict": "current",
+      "answer": "bun",
+      "usage": {
+        "input_tokens": 125,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s1-database",
+      "verdict": "current",
+      "answer": "mysql",
+      "usage": {
+        "input_tokens": 115,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 62,
+        "output_tokens_details": {
+          "thinking_tokens": 57
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s1-deploy",
+      "verdict": "stale",
+      "answer": "railway",
+      "usage": {
+        "input_tokens": 114,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s1-runtime",
+      "verdict": "stale",
+      "answer": "nodetwenty",
+      "usage": {
+        "input_tokens": 134,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 46,
+        "output_tokens_details": {
+          "thinking_tokens": 38
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s1-cache",
+      "verdict": "stale",
+      "answer": "memcached",
+      "usage": {
+        "input_tokens": 120,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "thinking_tokens": 17
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s1-auth",
+      "verdict": "stale",
+      "answer": "authzero",
+      "usage": {
+        "input_tokens": 118,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "output_tokens_details": {
+          "thinking_tokens": 28
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s1-logging",
+      "verdict": "stale",
+      "answer": "betterstack",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s1-styling",
+      "verdict": "stale",
+      "answer": "vanilla",
+      "usage": {
+        "input_tokens": 121,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 29,
+        "output_tokens_details": {
+          "thinking_tokens": 23
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s2-logging",
+      "verdict": "stale",
+      "answer": "honeycomb",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 43,
+        "output_tokens_details": {
+          "thinking_tokens": 36
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s2-search",
+      "verdict": "stale",
+      "answer": "meilisearch",
+      "usage": {
+        "input_tokens": 112,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s2-deploy",
+      "verdict": "stale",
+      "answer": "vercel",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 27,
+        "output_tokens_details": {
+          "thinking_tokens": 22
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s2-payments",
+      "verdict": "current",
+      "answer": "square",
+      "usage": {
+        "input_tokens": 121,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 46,
+        "output_tokens_details": {
+          "thinking_tokens": 43
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s2-queue",
+      "verdict": "other",
+      "answer": "sqs",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 57,
+        "output_tokens_details": {
+          "thinking_tokens": 52
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s2-styling",
+      "verdict": "stale",
+      "answer": "vanilla",
+      "usage": {
+        "input_tokens": 119,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 37,
+        "output_tokens_details": {
+          "thinking_tokens": 31
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s3-cdn",
+      "verdict": "current",
+      "answer": "akamai",
+      "usage": {
+        "input_tokens": 126,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 64,
+        "output_tokens_details": {
+          "thinking_tokens": 59
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s3-queue",
+      "verdict": "stale",
+      "answer": "rabbitmq",
+      "usage": {
+        "input_tokens": 129,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 35,
+        "output_tokens_details": {
+          "thinking_tokens": 27
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s3-payments",
+      "verdict": "current",
+      "answer": "adyen",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 55,
+        "output_tokens_details": {
+          "thinking_tokens": 50
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s3-search",
+      "verdict": "stale",
+      "answer": "typesense",
+      "usage": {
+        "input_tokens": 108,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 38,
+        "output_tokens_details": {
+          "thinking_tokens": 33
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s3-cache",
+      "verdict": "stale",
+      "answer": "memcached",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 34,
+        "output_tokens_details": {
+          "thinking_tokens": 29
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s3-testing",
+      "verdict": "stale",
+      "answer": "bun",
+      "usage": {
+        "input_tokens": 114,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 13,
+        "output_tokens_details": {
+          "thinking_tokens": 9
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s3-deploy",
+      "verdict": "stale",
+      "answer": "railway",
+      "usage": {
+        "input_tokens": 114,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "output_tokens_details": {
+          "thinking_tokens": 29
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s3-auth",
+      "verdict": "stale",
+      "answer": "supabase",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 43,
+        "output_tokens_details": {
+          "thinking_tokens": 38
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s4-runtime",
+      "verdict": "stale",
+      "answer": "nodeeighteen",
+      "usage": {
+        "input_tokens": 138,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 60,
+        "output_tokens_details": {
+          "thinking_tokens": 51
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s4-testing",
+      "verdict": "stale",
+      "answer": "mocha",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 17,
+        "output_tokens_details": {
+          "thinking_tokens": 12
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s4-logging",
+      "verdict": "other",
+      "answer": "betterstack",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 28,
+        "output_tokens_details": {
+          "thinking_tokens": 22
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s4-database",
+      "verdict": "current",
+      "answer": "planetscale",
+      "usage": {
+        "input_tokens": 115,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 62,
+        "output_tokens_details": {
+          "thinking_tokens": 56
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s5-auth",
+      "verdict": "stale",
+      "answer": "supabase",
+      "usage": {
+        "input_tokens": 118,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "output_tokens_details": {
+          "thinking_tokens": 28
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s5-cache",
+      "verdict": "stale",
+      "answer": "dragonfly",
+      "usage": {
+        "input_tokens": 124,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 51,
+        "output_tokens_details": {
+          "thinking_tokens": 44
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s5-logging",
+      "verdict": "stale",
+      "answer": "datadog",
+      "usage": {
+        "input_tokens": 119,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "output_tokens_details": {
+          "thinking_tokens": 28
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s5-database",
+      "verdict": "current",
+      "answer": "cockroach",
+      "usage": {
+        "input_tokens": 116,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 27,
+        "output_tokens_details": {
+          "thinking_tokens": 21
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "shuffled",
+      "case": "s5-testing",
+      "verdict": "other",
+      "answer": "vitest",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 35,
+        "output_tokens_details": {
+          "thinking_tokens": 30
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s1-database",
+      "verdict": "current",
+      "answer": "mysql",
+      "usage": {
+        "input_tokens": 150,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s1-deploy",
+      "verdict": "current",
+      "answer": "heroku",
+      "usage": {
+        "input_tokens": 149,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s1-runtime",
+      "verdict": "current",
+      "answer": "bunone",
+      "usage": {
+        "input_tokens": 169,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s1-cache",
+      "verdict": "current",
+      "answer": "dragonfly",
+      "usage": {
+        "input_tokens": 155,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s1-auth",
+      "verdict": "current",
+      "answer": "supabase",
+      "usage": {
+        "input_tokens": 153,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s1-logging",
+      "verdict": "current",
+      "answer": "splunk",
+      "usage": {
+        "input_tokens": 157,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "thinking_tokens": 17
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s1-styling",
+      "verdict": "current",
+      "answer": "stitches",
+      "usage": {
+        "input_tokens": 156,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s2-logging",
+      "verdict": "current",
+      "answer": "loki",
+      "usage": {
+        "input_tokens": 157,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s2-search",
+      "verdict": "current",
+      "answer": "elastic",
+      "usage": {
+        "input_tokens": 147,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s2-deploy",
+      "verdict": "current",
+      "answer": "railway",
+      "usage": {
+        "input_tokens": 152,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s2-payments",
+      "verdict": "current",
+      "answer": "square",
+      "usage": {
+        "input_tokens": 156,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 3,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s2-queue",
+      "verdict": "current",
+      "answer": "nats",
+      "usage": {
+        "input_tokens": 158,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s2-styling",
+      "verdict": "current",
+      "answer": "emotion",
+      "usage": {
+        "input_tokens": 154,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s3-cdn",
+      "verdict": "current",
+      "answer": "akamai",
+      "usage": {
+        "input_tokens": 161,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s3-queue",
+      "verdict": "current",
+      "answer": "nats",
+      "usage": {
+        "input_tokens": 164,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s3-payments",
+      "verdict": "current",
+      "answer": "adyen",
+      "usage": {
+        "input_tokens": 158,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s3-search",
+      "verdict": "current",
+      "answer": "elastic",
+      "usage": {
+        "input_tokens": 143,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s3-cache",
+      "verdict": "current",
+      "answer": "hazelcast",
+      "usage": {
+        "input_tokens": 157,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 26,
+        "output_tokens_details": {
+          "thinking_tokens": 19
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s3-testing",
+      "verdict": "current",
+      "answer": "tap",
+      "usage": {
+        "input_tokens": 149,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s3-deploy",
+      "verdict": "current",
+      "answer": "netlify",
+      "usage": {
+        "input_tokens": 149,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s3-auth",
+      "verdict": "current",
+      "answer": "okta",
+      "usage": {
+        "input_tokens": 152,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s4-runtime",
+      "verdict": "current",
+      "answer": "nodetwentytwo",
+      "usage": {
+        "input_tokens": 173,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 10,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s4-testing",
+      "verdict": "current",
+      "answer": "bun",
+      "usage": {
+        "input_tokens": 152,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s4-logging",
+      "verdict": "current",
+      "answer": "splunk",
+      "usage": {
+        "input_tokens": 158,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s4-database",
+      "verdict": "current",
+      "answer": "planetscale",
+      "usage": {
+        "input_tokens": 150,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s5-auth",
+      "verdict": "current",
+      "answer": "firebase",
+      "usage": {
+        "input_tokens": 153,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s5-cache",
+      "verdict": "current",
+      "answer": "hazelcast",
+      "usage": {
+        "input_tokens": 159,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s5-logging",
+      "verdict": "current",
+      "answer": "betterstack",
+      "usage": {
+        "input_tokens": 154,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s5-database",
+      "verdict": "current",
+      "answer": "cockroach",
+      "usage": {
+        "input_tokens": 151,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "condition": "stamped",
+      "case": "s5-testing",
+      "verdict": "current",
+      "answer": "bun",
+      "usage": {
+        "input_tokens": 152,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s1-database",
+      "verdict": "stale",
+      "answer": "sqlite",
+      "usage": {
+        "input_tokens": 115,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s1-deploy",
+      "verdict": "stale",
+      "answer": "railway",
+      "usage": {
+        "input_tokens": 114,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 58,
+        "output_tokens_details": {
+          "thinking_tokens": 54
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s1-runtime",
+      "verdict": "stale",
+      "answer": "nodetwenty",
+      "usage": {
+        "input_tokens": 134,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 106,
+        "output_tokens_details": {
+          "thinking_tokens": 98
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s1-cache",
+      "verdict": "other",
+      "answer": "upstash",
+      "usage": {
+        "input_tokens": 120,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 139,
+        "output_tokens_details": {
+          "thinking_tokens": 134
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s1-auth",
+      "verdict": "other",
+      "answer": "clerk",
+      "usage": {
+        "input_tokens": 118,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s1-logging",
+      "verdict": "other",
+      "answer": "axiom",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s1-styling",
+      "verdict": "stale",
+      "answer": "vanilla",
+      "usage": {
+        "input_tokens": 121,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s2-logging",
+      "verdict": "other",
+      "answer": "betterstack",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s2-search",
+      "verdict": "stale",
+      "answer": "meilisearch",
+      "usage": {
+        "input_tokens": 112,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s2-deploy",
+      "verdict": "stale",
+      "answer": "vercel",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s2-payments",
+      "verdict": "other",
+      "answer": "lemonsqueezy",
+      "usage": {
+        "input_tokens": 121,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 76,
+        "output_tokens_details": {
+          "thinking_tokens": 66
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s2-queue",
+      "verdict": "other",
+      "answer": "sqs",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 77,
+        "output_tokens_details": {
+          "thinking_tokens": 72
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s2-styling",
+      "verdict": "other",
+      "answer": "panda",
+      "usage": {
+        "input_tokens": 119,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 67,
+        "output_tokens_details": {
+          "thinking_tokens": 63
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s3-cdn",
+      "verdict": "other",
+      "answer": "cloudflare",
+      "usage": {
+        "input_tokens": 126,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 51,
+        "output_tokens_details": {
+          "thinking_tokens": 44
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s3-queue",
+      "verdict": "stale",
+      "answer": "rabbitmq",
+      "usage": {
+        "input_tokens": 129,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 8,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s3-payments",
+      "verdict": "stale",
+      "answer": "paddle",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 49,
+        "output_tokens_details": {
+          "thinking_tokens": 44
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s3-search",
+      "verdict": "stale",
+      "answer": "typesense",
+      "usage": {
+        "input_tokens": 108,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 77,
+        "output_tokens_details": {
+          "thinking_tokens": 72
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s3-cache",
+      "verdict": "stale",
+      "answer": "memcached",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 65,
+        "output_tokens_details": {
+          "thinking_tokens": 60
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s3-testing",
+      "verdict": "other",
+      "answer": "mocha",
+      "usage": {
+        "input_tokens": 114,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 115,
+        "output_tokens_details": {
+          "thinking_tokens": 110
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s3-deploy",
+      "verdict": "other",
+      "answer": "vercel",
+      "usage": {
+        "input_tokens": 114,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 58,
+        "output_tokens_details": {
+          "thinking_tokens": 53
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s3-auth",
+      "verdict": "other",
+      "answer": "authzero",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 100,
+        "output_tokens_details": {
+          "thinking_tokens": 95
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s4-runtime",
+      "verdict": "stale",
+      "answer": "nodeeighteen",
+      "usage": {
+        "input_tokens": 138,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 92,
+        "output_tokens_details": {
+          "thinking_tokens": 83
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s4-testing",
+      "verdict": "stale",
+      "answer": "mocha",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 69,
+        "output_tokens_details": {
+          "thinking_tokens": 64
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s4-logging",
+      "verdict": "other",
+      "answer": "axiom",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s4-database",
+      "verdict": "stale",
+      "answer": "mysql",
+      "usage": {
+        "input_tokens": 115,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 68,
+        "output_tokens_details": {
+          "thinking_tokens": 63
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s5-auth",
+      "verdict": "other",
+      "answer": "authzero",
+      "usage": {
+        "input_tokens": 118,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 108,
+        "output_tokens_details": {
+          "thinking_tokens": 103
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s5-cache",
+      "verdict": "other",
+      "answer": "memcached",
+      "usage": {
+        "input_tokens": 124,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 73,
+        "output_tokens_details": {
+          "thinking_tokens": 68
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s5-logging",
+      "verdict": "stale",
+      "answer": "datadog",
+      "usage": {
+        "input_tokens": 119,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s5-database",
+      "verdict": "stale",
+      "answer": "sqlite",
+      "usage": {
+        "input_tokens": 116,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "rank",
+      "case": "s5-testing",
+      "verdict": "other",
+      "answer": "vitest",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s1-database",
+      "verdict": "current",
+      "answer": "mysql",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s1-deploy",
+      "verdict": "current",
+      "answer": "heroku",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s1-runtime",
+      "verdict": "current",
+      "answer": "nodetwentyfour is not the answer; the ne",
+      "usage": {
+        "input_tokens": 142,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 39,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s1-cache",
+      "verdict": "current",
+      "answer": "dragonfly",
+      "usage": {
+        "input_tokens": 128,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 8,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s1-auth",
+      "verdict": "current",
+      "answer": "supabase",
+      "usage": {
+        "input_tokens": 126,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 43,
+        "output_tokens_details": {
+          "thinking_tokens": 38
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s1-logging",
+      "verdict": "current",
+      "answer": "axiom\n\nwait, correction: the newest memo",
+      "usage": {
+        "input_tokens": 130,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 38,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s1-styling",
+      "verdict": "current",
+      "answer": "stitches",
+      "usage": {
+        "input_tokens": 129,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 26,
+        "output_tokens_details": {
+          "thinking_tokens": 21
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s2-logging",
+      "verdict": "current",
+      "answer": "loki",
+      "usage": {
+        "input_tokens": 130,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 26,
+        "output_tokens_details": {
+          "thinking_tokens": 22
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s2-search",
+      "verdict": "current",
+      "answer": "algolia\n\nwait, correcting myself: the ne",
+      "usage": {
+        "input_tokens": 120,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 41,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s2-deploy",
+      "verdict": "current",
+      "answer": "railway",
+      "usage": {
+        "input_tokens": 125,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 32,
+        "output_tokens_details": {
+          "thinking_tokens": 28
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s2-payments",
+      "verdict": "current",
+      "answer": "square",
+      "usage": {
+        "input_tokens": 129,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s2-queue",
+      "verdict": "current",
+      "answer": "nats",
+      "usage": {
+        "input_tokens": 131,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s2-styling",
+      "verdict": "current",
+      "answer": "emotion",
+      "usage": {
+        "input_tokens": 127,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 35,
+        "output_tokens_details": {
+          "thinking_tokens": 30
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s3-cdn",
+      "verdict": "stale",
+      "answer": "bunny",
+      "usage": {
+        "input_tokens": 134,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s3-queue",
+      "verdict": "current",
+      "answer": "nats",
+      "usage": {
+        "input_tokens": 137,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s3-payments",
+      "verdict": "current",
+      "answer": "adyen",
+      "usage": {
+        "input_tokens": 131,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s3-search",
+      "verdict": "current",
+      "answer": "elastic",
+      "usage": {
+        "input_tokens": 116,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 37,
+        "output_tokens_details": {
+          "thinking_tokens": 32
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s3-cache",
+      "verdict": "current",
+      "answer": "hazelcast",
+      "usage": {
+        "input_tokens": 130,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s3-testing",
+      "verdict": "current",
+      "answer": "tap",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s3-deploy",
+      "verdict": "other",
+      "answer": "render",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 3,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s3-auth",
+      "verdict": "current",
+      "answer": "okta",
+      "usage": {
+        "input_tokens": 125,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s4-runtime",
+      "verdict": "current",
+      "answer": "nodetwentytwo",
+      "usage": {
+        "input_tokens": 146,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 10,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s4-testing",
+      "verdict": "current",
+      "answer": "bun",
+      "usage": {
+        "input_tokens": 125,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s4-logging",
+      "verdict": "stale",
+      "answer": "honeycomb",
+      "usage": {
+        "input_tokens": 131,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s4-database",
+      "verdict": "current",
+      "answer": "planetscale",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s5-auth",
+      "verdict": "current",
+      "answer": "firebase",
+      "usage": {
+        "input_tokens": 126,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s5-cache",
+      "verdict": "current",
+      "answer": "hazelcast",
+      "usage": {
+        "input_tokens": 132,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s5-logging",
+      "verdict": "current",
+      "answer": "betterstack",
+      "usage": {
+        "input_tokens": 127,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s5-database",
+      "verdict": "current",
+      "answer": "cockroach",
+      "usage": {
+        "input_tokens": 124,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 36,
+        "output_tokens_details": {
+          "thinking_tokens": 30
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "labeled",
+      "case": "s5-testing",
+      "verdict": "other",
+      "answer": "vitest",
+      "usage": {
+        "input_tokens": 125,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s1-database",
+      "verdict": "current",
+      "answer": "mysql",
+      "usage": {
+        "input_tokens": 115,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s1-deploy",
+      "verdict": "stale",
+      "answer": "railway",
+      "usage": {
+        "input_tokens": 114,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 52,
+        "output_tokens_details": {
+          "thinking_tokens": 48
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s1-runtime",
+      "verdict": "stale",
+      "answer": "nodetwenty",
+      "usage": {
+        "input_tokens": 134,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 124,
+        "output_tokens_details": {
+          "thinking_tokens": 116
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s1-cache",
+      "verdict": "stale",
+      "answer": "memcached",
+      "usage": {
+        "input_tokens": 120,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s1-auth",
+      "verdict": "stale",
+      "answer": "authzero",
+      "usage": {
+        "input_tokens": 118,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s1-logging",
+      "verdict": "stale",
+      "answer": "betterstack",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s1-styling",
+      "verdict": "stale",
+      "answer": "vanilla",
+      "usage": {
+        "input_tokens": 121,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 78,
+        "output_tokens_details": {
+          "thinking_tokens": 72
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s2-logging",
+      "verdict": "stale",
+      "answer": "honeycomb",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s2-search",
+      "verdict": "stale",
+      "answer": "meilisearch",
+      "usage": {
+        "input_tokens": 112,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 8,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s2-deploy",
+      "verdict": "stale",
+      "answer": "vercel",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s2-payments",
+      "verdict": "current",
+      "answer": "square",
+      "usage": {
+        "input_tokens": 121,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s2-queue",
+      "verdict": "other",
+      "answer": "sqs",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 68,
+        "output_tokens_details": {
+          "thinking_tokens": 63
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s2-styling",
+      "verdict": "stale",
+      "answer": "vanilla",
+      "usage": {
+        "input_tokens": 119,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 55,
+        "output_tokens_details": {
+          "thinking_tokens": 49
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s3-cdn",
+      "verdict": "current",
+      "answer": "akamai",
+      "usage": {
+        "input_tokens": 126,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 60,
+        "output_tokens_details": {
+          "thinking_tokens": 55
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s3-queue",
+      "verdict": "stale",
+      "answer": "rabbitmq",
+      "usage": {
+        "input_tokens": 129,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 8,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s3-payments",
+      "verdict": "current",
+      "answer": "adyen",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 62,
+        "output_tokens_details": {
+          "thinking_tokens": 57
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s3-search",
+      "verdict": "stale",
+      "answer": "typesense",
+      "usage": {
+        "input_tokens": 108,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 69,
+        "output_tokens_details": {
+          "thinking_tokens": 64
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s3-cache",
+      "verdict": "stale",
+      "answer": "memcached",
+      "usage": {
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 64,
+        "output_tokens_details": {
+          "thinking_tokens": 59
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s3-testing",
+      "verdict": "stale",
+      "answer": "bun",
+      "usage": {
+        "input_tokens": 114,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 58,
+        "output_tokens_details": {
+          "thinking_tokens": 54
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s3-deploy",
+      "verdict": "stale",
+      "answer": "railway",
+      "usage": {
+        "input_tokens": 114,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 42,
+        "output_tokens_details": {
+          "thinking_tokens": 38
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s3-auth",
+      "verdict": "stale",
+      "answer": "supabase",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s4-runtime",
+      "verdict": "stale",
+      "answer": "nodeeighteen",
+      "usage": {
+        "input_tokens": 138,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 115,
+        "output_tokens_details": {
+          "thinking_tokens": 106
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s4-testing",
+      "verdict": "stale",
+      "answer": "mocha",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s4-logging",
+      "verdict": "other",
+      "answer": "betterstack",
+      "usage": {
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s4-database",
+      "verdict": "current",
+      "answer": "planetscale",
+      "usage": {
+        "input_tokens": 115,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s5-auth",
+      "verdict": "stale",
+      "answer": "supabase",
+      "usage": {
+        "input_tokens": 118,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s5-cache",
+      "verdict": "stale",
+      "answer": "dragonfly",
+      "usage": {
+        "input_tokens": 124,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 74,
+        "output_tokens_details": {
+          "thinking_tokens": 67
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s5-logging",
+      "verdict": "stale",
+      "answer": "datadog",
+      "usage": {
+        "input_tokens": 119,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s5-database",
+      "verdict": "current",
+      "answer": "cockroach",
+      "usage": {
+        "input_tokens": 116,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "shuffled",
+      "case": "s5-testing",
+      "verdict": "other",
+      "answer": "vitest",
+      "usage": {
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 62,
+        "output_tokens_details": {
+          "thinking_tokens": 57
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s1-database",
+      "verdict": "current",
+      "answer": "mysql",
+      "usage": {
+        "input_tokens": 150,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s1-deploy",
+      "verdict": "current",
+      "answer": "heroku",
+      "usage": {
+        "input_tokens": 149,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s1-runtime",
+      "verdict": "current",
+      "answer": "bunone",
+      "usage": {
+        "input_tokens": 169,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 24,
+        "output_tokens_details": {
+          "thinking_tokens": 19
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s1-cache",
+      "verdict": "current",
+      "answer": "dragonfly",
+      "usage": {
+        "input_tokens": 155,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s1-auth",
+      "verdict": "current",
+      "answer": "supabase",
+      "usage": {
+        "input_tokens": 153,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s1-logging",
+      "verdict": "current",
+      "answer": "splunk",
+      "usage": {
+        "input_tokens": 157,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s1-styling",
+      "verdict": "current",
+      "answer": "stitches",
+      "usage": {
+        "input_tokens": 156,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s2-logging",
+      "verdict": "current",
+      "answer": "loki",
+      "usage": {
+        "input_tokens": 157,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "thinking_tokens": 18
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s2-search",
+      "verdict": "current",
+      "answer": "elastic",
+      "usage": {
+        "input_tokens": 147,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s2-deploy",
+      "verdict": "current",
+      "answer": "railway",
+      "usage": {
+        "input_tokens": 152,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s2-payments",
+      "verdict": "current",
+      "answer": "square",
+      "usage": {
+        "input_tokens": 156,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 3,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s2-queue",
+      "verdict": "current",
+      "answer": "nats",
+      "usage": {
+        "input_tokens": 158,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s2-styling",
+      "verdict": "current",
+      "answer": "emotion",
+      "usage": {
+        "input_tokens": 154,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 23,
+        "output_tokens_details": {
+          "thinking_tokens": 18
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s3-cdn",
+      "verdict": "current",
+      "answer": "akamai",
+      "usage": {
+        "input_tokens": 161,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s3-queue",
+      "verdict": "stale",
+      "answer": "rabbitmq",
+      "usage": {
+        "input_tokens": 164,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 8,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s3-payments",
+      "verdict": "current",
+      "answer": "adyen",
+      "usage": {
+        "input_tokens": 158,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s3-search",
+      "verdict": "current",
+      "answer": "elastic",
+      "usage": {
+        "input_tokens": 143,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s3-cache",
+      "verdict": "current",
+      "answer": "hazelcast",
+      "usage": {
+        "input_tokens": 157,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s3-testing",
+      "verdict": "current",
+      "answer": "tap",
+      "usage": {
+        "input_tokens": 149,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 27,
+        "output_tokens_details": {
+          "thinking_tokens": 23
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s3-deploy",
+      "verdict": "current",
+      "answer": "netlify",
+      "usage": {
+        "input_tokens": 149,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s3-auth",
+      "verdict": "current",
+      "answer": "okta",
+      "usage": {
+        "input_tokens": 152,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s4-runtime",
+      "verdict": "current",
+      "answer": "nodetwentytwo",
+      "usage": {
+        "input_tokens": 173,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 49,
+        "output_tokens_details": {
+          "thinking_tokens": 39
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s4-testing",
+      "verdict": "current",
+      "answer": "bun",
+      "usage": {
+        "input_tokens": 152,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s4-logging",
+      "verdict": "current",
+      "answer": "splunk",
+      "usage": {
+        "input_tokens": 158,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s4-database",
+      "verdict": "current",
+      "answer": "planetscale",
+      "usage": {
+        "input_tokens": 150,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s5-auth",
+      "verdict": "current",
+      "answer": "firebase",
+      "usage": {
+        "input_tokens": 153,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s5-cache",
+      "verdict": "current",
+      "answer": "hazelcast",
+      "usage": {
+        "input_tokens": 159,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s5-logging",
+      "verdict": "current",
+      "answer": "betterstack",
+      "usage": {
+        "input_tokens": 154,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s5-database",
+      "verdict": "current",
+      "answer": "cockroach",
+      "usage": {
+        "input_tokens": 151,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "condition": "stamped",
+      "case": "s5-testing",
+      "verdict": "current",
+      "answer": "bun",
+      "usage": {
+        "input_tokens": 152,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "service_tier": "standard",
+        "inference_geo": "global",
+        "speed": "standard"
+      }
+    }
+  ],
+  "failed": []
+}

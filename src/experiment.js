@@ -7,7 +7,7 @@ const SESSIONS = 20;
 const CONSOLIDATE_EVERY = 5;
 const K = 5;
 const SEED = 7;
-const CHANGE_RATE = 0.6; // Where the sweep says the majority reader is worst
+const CHANGE_RATE = 0.6; // Mid sweep, where copies of a stale value peak
 const TIE_REPEATS = 20; // How many seeds a random tiebreak is averaged over
 
 function runOnce({ forgetPolicy, tiebreak, tieSeed }) {
@@ -46,7 +46,7 @@ function runArm({ label, forgetPolicy, tiebreak }) {
       top1Accuracy: mean((x) => x.top1Accuracy),
       precisionAtK: mean((x) => x.precisionAtK),
       answerFirst: mean((x) => x.answer.first),
-      answerMajority: mean((x) => x.answer.majority),
+      answerLast: mean((x) => x.answer.last),
       activeMemories: runs[0].trace[i].activeMemories,
     };
   });
@@ -69,7 +69,7 @@ console.log(
   `k=${K}, changeRate=${CHANGE_RATE}, seed=${SEED}\n`
 );
 console.log('         ' + arms.map((a) => `| ${a.label.padEnd(24)}`).join(''));
-console.log(' session ' + arms.map(() => '|   top1     p@5  majority').join(''));
+console.log(' session ' + arms.map(() => '|   top1     p@5      last').join(''));
 console.log('---------' + arms.map(() => '+-------------------------').join(''));
 
 for (let i = 0; i < SESSIONS; i++) {
@@ -77,7 +77,7 @@ for (let i = 0; i < SESSIONS; i++) {
   let row = String(i + 1).padStart(8) + marker;
   for (const arm of arms) {
     const r = arm.trace[i];
-    row += `|${pct(r.top1Accuracy)}${pct(r.precisionAtK)}${pct(r.answerMajority)} `;
+    row += `|${pct(r.top1Accuracy)}${pct(r.precisionAtK)}${pct(r.answerLast)} `;
   }
   console.log(row);
 }
@@ -91,7 +91,7 @@ for (const arm of arms) {
     `${arm.label.padEnd(18)} ` +
     `top1 ${pct(first.top1Accuracy).trim()} -> ${pct(last.top1Accuracy).trim().padStart(6)}   ` +
     `p@${K} ${pct(first.precisionAtK).trim()} -> ${pct(last.precisionAtK).trim().padStart(6)}   ` +
-    `majority ${pct(first.answerMajority).trim()} -> ${pct(last.answerMajority).trim().padStart(6)}   ` +
+    `last ${pct(first.answerLast).trim()} -> ${pct(last.answerLast).trim().padStart(6)}   ` +
     `memories ${String(last.activeMemories).padStart(3)}`
   );
 }
