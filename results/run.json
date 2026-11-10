@@ -1,0 +1,623 @@
+{
+  "config": {
+    "SESSIONS": 20,
+    "CONSOLIDATE_EVERY": 5,
+    "K": 5,
+    "SEED": 7,
+    "TIE_REPEATS": 20
+  },
+  "arms": [
+    {
+      "label": "none / oldest",
+      "forgetPolicy": "none",
+      "tiebreak": "oldest",
+      "repeats": 1,
+      "trace": [
+        {
+          "session": 1,
+          "slots": 4,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 4
+        },
+        {
+          "session": 2,
+          "slots": 8,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 8
+        },
+        {
+          "session": 3,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 12
+        },
+        {
+          "session": 4,
+          "slots": 12,
+          "top1Accuracy": 0.6666666666666666,
+          "precisionAtK": 0.8333333333333334,
+          "activeMemories": 16
+        },
+        {
+          "session": 5,
+          "slots": 12,
+          "top1Accuracy": 0.3333333333333333,
+          "precisionAtK": 0.5555555555555555,
+          "activeMemories": 32
+        },
+        {
+          "session": 6,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0.3333333333333333,
+          "activeMemories": 36
+        },
+        {
+          "session": 7,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0.3055555555555556,
+          "activeMemories": 40
+        },
+        {
+          "session": 8,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0.27777777777777773,
+          "activeMemories": 44
+        },
+        {
+          "session": 9,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0.25,
+          "activeMemories": 48
+        },
+        {
+          "session": 10,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 64
+        },
+        {
+          "session": 11,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 68
+        },
+        {
+          "session": 12,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 72
+        },
+        {
+          "session": 13,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0.18333333333333332,
+          "activeMemories": 76
+        },
+        {
+          "session": 14,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0.15,
+          "activeMemories": 80
+        },
+        {
+          "session": 15,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0.13333333333333333,
+          "activeMemories": 96
+        },
+        {
+          "session": 16,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0.09999999999999999,
+          "activeMemories": 100
+        },
+        {
+          "session": 17,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0.06666666666666667,
+          "activeMemories": 104
+        },
+        {
+          "session": 18,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0,
+          "activeMemories": 108
+        },
+        {
+          "session": 19,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0,
+          "activeMemories": 112
+        },
+        {
+          "session": 20,
+          "slots": 12,
+          "top1Accuracy": 0,
+          "precisionAtK": 0,
+          "activeMemories": 128
+        }
+      ],
+      "stats": {
+        "writes": 80,
+        "evicted": 0,
+        "consolidations": 4
+      }
+    },
+    {
+      "label": "none / random",
+      "forgetPolicy": "none",
+      "tiebreak": "random",
+      "repeats": 20,
+      "trace": [
+        {
+          "session": 1,
+          "slots": 4,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 4
+        },
+        {
+          "session": 2,
+          "slots": 8,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 8
+        },
+        {
+          "session": 3,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 12
+        },
+        {
+          "session": 4,
+          "slots": 12,
+          "top1Accuracy": 0.8333333333333333,
+          "precisionAtK": 0.8333333333333336,
+          "activeMemories": 16
+        },
+        {
+          "session": 5,
+          "slots": 12,
+          "top1Accuracy": 0.6541666666666666,
+          "precisionAtK": 0.5555555555555555,
+          "activeMemories": 32
+        },
+        {
+          "session": 6,
+          "slots": 12,
+          "top1Accuracy": 0.4,
+          "precisionAtK": 0.3333333333333332,
+          "activeMemories": 36
+        },
+        {
+          "session": 7,
+          "slots": 12,
+          "top1Accuracy": 0.35,
+          "precisionAtK": 0.30555555555555547,
+          "activeMemories": 40
+        },
+        {
+          "session": 8,
+          "slots": 12,
+          "top1Accuracy": 0.2958333333333333,
+          "precisionAtK": 0.27777777777777773,
+          "activeMemories": 44
+        },
+        {
+          "session": 9,
+          "slots": 12,
+          "top1Accuracy": 0.2125,
+          "precisionAtK": 0.25,
+          "activeMemories": 48
+        },
+        {
+          "session": 10,
+          "slots": 12,
+          "top1Accuracy": 0.24999999999999994,
+          "precisionAtK": 0.20000000000000004,
+          "activeMemories": 64
+        },
+        {
+          "session": 11,
+          "slots": 12,
+          "top1Accuracy": 0.3166666666666667,
+          "precisionAtK": 0.20000000000000004,
+          "activeMemories": 68
+        },
+        {
+          "session": 12,
+          "slots": 12,
+          "top1Accuracy": 0.3541666666666667,
+          "precisionAtK": 0.20000000000000004,
+          "activeMemories": 72
+        },
+        {
+          "session": 13,
+          "slots": 12,
+          "top1Accuracy": 0.31249999999999994,
+          "precisionAtK": 0.19750000000000004,
+          "activeMemories": 76
+        },
+        {
+          "session": 14,
+          "slots": 12,
+          "top1Accuracy": 0.2541666666666667,
+          "precisionAtK": 0.19583333333333336,
+          "activeMemories": 80
+        },
+        {
+          "session": 15,
+          "slots": 12,
+          "top1Accuracy": 0.225,
+          "precisionAtK": 0.19416666666666668,
+          "activeMemories": 96
+        },
+        {
+          "session": 16,
+          "slots": 12,
+          "top1Accuracy": 0.2125,
+          "precisionAtK": 0.18416666666666667,
+          "activeMemories": 100
+        },
+        {
+          "session": 17,
+          "slots": 12,
+          "top1Accuracy": 0.22916666666666666,
+          "precisionAtK": 0.17500000000000004,
+          "activeMemories": 104
+        },
+        {
+          "session": 18,
+          "slots": 12,
+          "top1Accuracy": 0.19166666666666665,
+          "precisionAtK": 0.16500000000000006,
+          "activeMemories": 108
+        },
+        {
+          "session": 19,
+          "slots": 12,
+          "top1Accuracy": 0.16666666666666669,
+          "precisionAtK": 0.15916666666666668,
+          "activeMemories": 112
+        },
+        {
+          "session": 20,
+          "slots": 12,
+          "top1Accuracy": 0.1125,
+          "precisionAtK": 0.15583333333333332,
+          "activeMemories": 128
+        }
+      ],
+      "stats": {
+        "writes": 80,
+        "evicted": 0,
+        "consolidations": 4
+      }
+    },
+    {
+      "label": "none / recency",
+      "forgetPolicy": "none",
+      "tiebreak": "recency",
+      "repeats": 1,
+      "trace": [
+        {
+          "session": 1,
+          "slots": 4,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 4
+        },
+        {
+          "session": 2,
+          "slots": 8,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 8
+        },
+        {
+          "session": 3,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 12
+        },
+        {
+          "session": 4,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.8333333333333334,
+          "activeMemories": 16
+        },
+        {
+          "session": 5,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.5555555555555555,
+          "activeMemories": 32
+        },
+        {
+          "session": 6,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.3333333333333333,
+          "activeMemories": 36
+        },
+        {
+          "session": 7,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.3055555555555556,
+          "activeMemories": 40
+        },
+        {
+          "session": 8,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.27777777777777773,
+          "activeMemories": 44
+        },
+        {
+          "session": 9,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.25,
+          "activeMemories": 48
+        },
+        {
+          "session": 10,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 64
+        },
+        {
+          "session": 11,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 68
+        },
+        {
+          "session": 12,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 72
+        },
+        {
+          "session": 13,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 76
+        },
+        {
+          "session": 14,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 80
+        },
+        {
+          "session": 15,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 96
+        },
+        {
+          "session": 16,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 100
+        },
+        {
+          "session": 17,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 104
+        },
+        {
+          "session": 18,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 108
+        },
+        {
+          "session": 19,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 112
+        },
+        {
+          "session": 20,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 0.19999999999999998,
+          "activeMemories": 128
+        }
+      ],
+      "stats": {
+        "writes": 80,
+        "evicted": 0,
+        "consolidations": 4
+      }
+    },
+    {
+      "label": "supersede/random",
+      "forgetPolicy": "supersede",
+      "tiebreak": "random",
+      "repeats": 20,
+      "trace": [
+        {
+          "session": 1,
+          "slots": 4,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 4
+        },
+        {
+          "session": 2,
+          "slots": 8,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 8
+        },
+        {
+          "session": 3,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 12
+        },
+        {
+          "session": 4,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 12
+        },
+        {
+          "session": 5,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 24
+        },
+        {
+          "session": 6,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 20
+        },
+        {
+          "session": 7,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 17
+        },
+        {
+          "session": 8,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 15
+        },
+        {
+          "session": 9,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 12
+        },
+        {
+          "session": 10,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 24
+        },
+        {
+          "session": 11,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 20
+        },
+        {
+          "session": 12,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 16
+        },
+        {
+          "session": 13,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 13
+        },
+        {
+          "session": 14,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 13
+        },
+        {
+          "session": 15,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 24
+        },
+        {
+          "session": 16,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 20
+        },
+        {
+          "session": 17,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 16
+        },
+        {
+          "session": 18,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 12
+        },
+        {
+          "session": 19,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 12
+        },
+        {
+          "session": 20,
+          "slots": 12,
+          "top1Accuracy": 1,
+          "precisionAtK": 1,
+          "activeMemories": 24
+        }
+      ],
+      "stats": {
+        "writes": 80,
+        "evicted": 104,
+        "consolidations": 4
+      }
+    }
+  ]
+}
